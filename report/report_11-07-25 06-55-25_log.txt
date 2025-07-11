@@ -1,0 +1,1524 @@
+2025-07-11 06:55:25.837573 : __doc__: 
+                                 Multiline Comments - Python does not really have a syntax for multiline comments.
+                                 To add a multiline comment you could insert a # for each line.
+                                 This is a comment written in more than just one line
+                                 Comments can be used to explain Python code.
+                                 Comments can be used to make the code more readable.
+                                 Comments can be used to prevent execution when testing code.
+                                 Comments starts with a #, and Python will ignore them
+                                 
+2025-07-11 06:55:25.837573 : This is a comment
+2025-07-11 06:55:25.837573 : Hello, World!
+2025-07-11 06:55:25.837573 : Cheers, Mate!
+2025-07-11 06:55:25.839743 : __doc__: 
+                                 Python Indentation - Indentation refers to the spaces at the beginning of a code line.
+                                 Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.
+                                 Python uses indentation to indicate a block of code.
+                                 Python will give you an error if you skip the indentation:
+                                 Indentation refers to the spaces at the beginning of a code line.
+                                 
+2025-07-11 06:55:25.839743 : Hello, World!
+2025-07-11 06:55:25.839743 : Five is greater than two: 5 > 2!
+                             
+2025-07-11 06:55:25.840752 : myvar: John
+2025-07-11 06:55:25.840752 : my_var: John
+2025-07-11 06:55:25.840752 : _my_var: John
+2025-07-11 06:55:25.840752 : MYVAR: John
+2025-07-11 06:55:25.840752 : myvar2: John
+2025-07-11 06:55:25.840752 : x1: 3, type: <class 'str'>
+2025-07-11 06:55:25.840752 : y1: 3,type: <class 'int'>
+2025-07-11 06:55:25.840752 : z1: 3.0,type: <class 'float'>
+2025-07-11 06:55:25.840752 : x2: 5,type: <class 'int'>
+2025-07-11 06:55:25.840752 : y3: John,type: <class 'str'>
+2025-07-11 06:55:25.840752 : x3 variable in double quotes, x3: John,type: <class 'str'>
+2025-07-11 06:55:25.841792 : y3 variable in single quotes, y3: John,type: <class 'str'>
+2025-07-11 06:55:25.841792 : a variable in case-sensitive, a: 4,type: <class 'int'>
+2025-07-11 06:55:25.841792 : a variable in case-sensitive, A: Sally,type: <class 'str'>
+2025-07-11 06:55:25.841792 : Data type of each variable using casting str() x5: 3,type: <class 'str'>
+2025-07-11 06:55:25.841792 : Data type of each variable using casting int() y5: 3,type: <class 'int'>
+2025-07-11 06:55:25.841792 : Data type of each variable using casting float() z5: 3.0,type: <class 'float'>
+2025-07-11 06:55:25.841792 : Data type of each variable using casting list() x6: [1, 2, 3],type: <class 'list'>
+2025-07-11 06:55:25.841792 : Data type of each variable using casting dict() x7: {'a': 1},type: <class 'dict'>
+2025-07-11 06:55:25.841792 : Data type of each variable using casting tuple() x8: (1, 2, 3),type: <class 'tuple'>
+2025-07-11 06:55:25.841792 : Data type of each variable using casting tuple() x9: {1, 2, 3},type: <class 'set'>
+2025-07-11 06:55:25.841792 : Multiple variables name x_, y_, z_ with different value : Orange, Banana, Cherry
+2025-07-11 06:55:25.841792 : One value 'orange' with Multiple variables name x_1_, y_1, z_1 : Orange, Orange, Orange
+2025-07-11 06:55:25.841792 : fruits: ['apple', 'banana', 'cherry']
+2025-07-11 06:55:25.841792 : Unpack the ['apple', 'banana', 'cherry'] values with different variable value _x, _y, _z: ('apple', 'banana', 'cherry')
+2025-07-11 06:55:25.841792 : The Python print() function is often used to output variables: Python is awesome
+2025-07-11 06:55:25.841792 : In the print() function, you output multiple variables, separated by a comma: ('Python', 'is', 'awesome')
+2025-07-11 06:55:25.841792 : Use + operator to output multiple variables even with space character "Python " and "is ": Python is awesome
+2025-07-11 06:55:25.841792 : For numbers x_1, y_1: 5, 10, + character works as a mathematical operator: 15
+2025-07-11 06:55:25.841792 : print() function is to separate them with commas of output multiple variables with different data types : (5, 'John')
+2025-07-11 06:55:25.842850 : Integer numbers
+2025-07-11 06:55:25.842850 : variable x: 1
+2025-07-11 06:55:25.842850 : variable y: 2.8
+2025-07-11 06:55:25.842850 : variable z: 1j
+2025-07-11 06:55:25.842850 : variable x1: 1
+2025-07-11 06:55:25.842850 : variable y1: 35656222554887711
+2025-07-11 06:55:25.842850 : variable z1: -3255522
+2025-07-11 06:55:25.842850 : float numbers
+2025-07-11 06:55:25.842850 : variable x2: 1.1
+2025-07-11 06:55:25.842850 : variable y2: 1.0
+2025-07-11 06:55:25.842850 : variable z2: -35.59
+2025-07-11 06:55:25.842850 : variable x3: 35000.0
+2025-07-11 06:55:25.842850 : variable y3: 120000.0
+2025-07-11 06:55:25.842850 : variable z3: -8.77e+101
+2025-07-11 06:55:25.842850 : complex numbers
+2025-07-11 06:55:25.842850 : variable x: (3+5j)
+2025-07-11 06:55:25.842850 : variable y: 5j
+2025-07-11 06:55:25.842850 : variable z: (-0-5j)
+2025-07-11 06:55:25.842850 : variable a: 1.0
+2025-07-11 06:55:25.842850 : variable b: 2
+2025-07-11 06:55:25.842850 : variable c: (1+0j)
+2025-07-11 06:55:25.844078 : Two values x, y: 15, 3
+2025-07-11 06:55:25.844078 : Addition of x + y: 18
+2025-07-11 06:55:25.844078 : Subraction of x - y: 12
+2025-07-11 06:55:25.844078 : Multiplication of x * y: 45
+2025-07-11 06:55:25.844078 : Division of x / y: 5.0
+2025-07-11 06:55:25.844078 : Floor Division of x // y: 5
+2025-07-11 06:55:25.844078 : exponentiation of x ** y: 3375
+2025-07-11 06:55:25.844078 : modulus of x + y: 0
+2025-07-11 06:55:25.846131 : x: 5
+2025-07-11 06:55:25.846131 : Addition x += 3: 8
+2025-07-11 06:55:25.846131 : Subraction x -= 3: 5
+2025-07-11 06:55:25.846131 : Multiplication x *= 3: 15
+2025-07-11 06:55:25.846131 : Division x /= 3: 5.0
+2025-07-11 06:55:25.846131 : Modulus x = x % 3: 2.0
+2025-07-11 06:55:25.846131 : Floor division x //= 3: 0.0
+2025-07-11 06:55:25.846131 : Exponentiation x **= 3: 27
+2025-07-11 06:55:25.846131 : And x &= 3: 3
+2025-07-11 06:55:25.846131 : OR x |= 3: 3
+2025-07-11 06:55:25.846131 : XOR x ^= 3: 0
+2025-07-11 06:55:25.846131 : Zero fill right shift x >>= 3: 0
+2025-07-11 06:55:25.846131 : Zero fill left shift <<= 3: 0
+2025-07-11 06:55:25.847248 : 6 & 3
+2025-07-11 06:55:25.847248 : 2
+2025-07-11 06:55:25.847248 : 6 | 3
+2025-07-11 06:55:25.847248 : 7
+2025-07-11 06:55:25.847248 : 6 ^ 3
+2025-07-11 06:55:25.847248 : 5
+2025-07-11 06:55:25.847248 : !3
+2025-07-11 06:55:25.847248 : -4
+2025-07-11 06:55:25.847248 : 3 << 2
+2025-07-11 06:55:25.847248 : 12
+2025-07-11 06:55:25.847248 : 8 >> 2
+2025-07-11 06:55:25.847248 : 2
+2025-07-11 06:55:25.848314 : Two values x, y: 3, 5
+2025-07-11 06:55:25.848314 : Equal x == y: False
+2025-07-11 06:55:25.849321 : Not Equal x != y: True
+2025-07-11 06:55:25.849321 : Greater than x > y: False
+2025-07-11 06:55:25.849321 : Less than x < y: True
+2025-07-11 06:55:25.849321 : Greater than or equal to x >= y: False
+2025-07-11 06:55:25.849321 : Less than or equal to x <= y: True
+2025-07-11 06:55:25.850449 : x is z
+2025-07-11 06:55:25.850449 : True
+2025-07-11 06:55:25.850449 : x is y
+2025-07-11 06:55:25.850449 : False
+2025-07-11 06:55:25.850449 : x == y
+2025-07-11 06:55:25.850449 : True
+2025-07-11 06:55:25.850449 : x is not z
+2025-07-11 06:55:25.850449 : False
+2025-07-11 06:55:25.850449 : x is not y
+2025-07-11 06:55:25.850449 : True
+2025-07-11 06:55:25.850449 : x != y
+2025-07-11 06:55:25.850449 : False
+2025-07-11 06:55:25.851456 : x: 4
+2025-07-11 06:55:25.851456 : x < 5 and  x < 10: True
+2025-07-11 06:55:25.851456 : x < 5 or x < 4: True
+2025-07-11 06:55:25.851456 : not(x < 5 and x < 10): False
+2025-07-11 06:55:25.853567 : x:
+2025-07-11 06:55:25.853567 : ['apple', 'banana']
+2025-07-11 06:55:25.853567 : "banana" in x
+2025-07-11 06:55:25.853567 : True
+2025-07-11 06:55:25.853567 : "pineapple" not in x
+2025-07-11 06:55:25.853567 : True
+2025-07-11 06:55:25.854599 : (6 + 3) - (6 + 3)
+2025-07-11 06:55:25.854599 : 0
+2025-07-11 06:55:25.854599 : 100 + 5 * 3
+2025-07-11 06:55:25.854599 : 115
+2025-07-11 06:55:25.854599 : 100 - 3 ** 3
+2025-07-11 06:55:25.854599 : 73
+2025-07-11 06:55:25.854599 : 100 + ~3
+2025-07-11 06:55:25.854599 : 96
+2025-07-11 06:55:25.854599 : 100 + 5 * 3
+2025-07-11 06:55:25.854599 : 115
+2025-07-11 06:55:25.854599 : 100 - 5 * 3
+2025-07-11 06:55:25.854599 : 85
+2025-07-11 06:55:25.854599 : 8 >> 4 - 2
+2025-07-11 06:55:25.854599 : 2
+2025-07-11 06:55:25.854599 : 6 & 2 + 1
+2025-07-11 06:55:25.854599 : 2
+2025-07-11 06:55:25.854599 : 6 ^ 2 + 1
+2025-07-11 06:55:25.854599 : 5
+2025-07-11 06:55:25.854599 : 6 | 2 + 1
+2025-07-11 06:55:25.854599 : 7
+2025-07-11 06:55:25.854599 : 5 == 4 + 1
+2025-07-11 06:55:25.854599 : True
+2025-07-11 06:55:25.854599 : not 5 == 5
+2025-07-11 06:55:25.854599 : False
+2025-07-11 06:55:25.854599 : 1 or 2 and 3
+2025-07-11 06:55:25.854599 : 1
+2025-07-11 06:55:25.854599 : 4 or 5 + 10 or 8
+2025-07-11 06:55:25.854599 : 4
+2025-07-11 06:55:25.856665 : __doc__: 
+                                 Boolean Type:	bool
+                                 
+2025-07-11 06:55:25.856665 : variable, type of x11 variable, True, <class 'bool'>
+                             
+2025-07-11 06:55:25.857693 : __doc__: 
+                                 Binary Types: bytearray
+                                 
+2025-07-11 06:55:25.857693 : variable, type of x13 variable, bytearray(b'\x00\x00\x00\x00\x00'), <class 'bytearray'>
+                             
+2025-07-11 06:55:25.858719 : __doc__: 
+                                 Binary Types: bytes
+                                 
+2025-07-11 06:55:25.858719 : variable, type of x12 variable, b'Hello', <class 'bytes'>
+                             
+2025-07-11 06:55:25.860036 : __doc__: 
+                                 Numeric Types:	complex
+                                 
+2025-07-11 06:55:25.860036 : variable, type of x4 variable, 1j, <class 'complex'>
+                             
+2025-07-11 06:55:25.862073 : __doc__: 
+                                 Sequence Types:	range
+                                 
+2025-07-11 06:55:25.862073 : variable, type of x8 variable, {'name': 'John', 'age': 36}, <class 'dict'>
+                             
+2025-07-11 06:55:25.863106 : __doc__: 
+                                 Set Types:	frozenset
+                                 
+2025-07-11 06:55:25.863106 : variable, type of x10 variable, frozenset({'apple', 'cherry', 'banana'}), <class 'frozenset'>
+                             
+2025-07-11 06:55:25.864131 : __doc__: 
+                                 Built-in Data Types
+                                 In programming, data type is an important concept.
+                                 Variables can store data of different types, and different types can do different things.
+                                 Python has the following data types built-in by default, in these categories:
+                                 Text Type:	str
+                                 Numeric Types:	int, float, complex
+                                 Sequence Types:	list, tuple, range
+                                 Mapping Type:	dict
+                                 Set Types:	set, frozenset
+                                 Boolean Type:	bool
+                                 Binary Types:	bytes, bytearray, memoryview
+                                 None Type:	NoneType
+                                 You can get the data type of any object by using the type() function:
+                                 Print the data type of the variable x
+                                 
+2025-07-11 06:55:25.866295 : __doc__: 
+                                 Sequence Types:	list
+                                 
+2025-07-11 06:55:25.866295 : variable, type of x5 variable, ['apple', 'banana', 'cherry'], <class 'list'>
+                             
+2025-07-11 06:55:25.867305 : __doc__: 
+                                 Binary Types: bytearray
+                                 
+2025-07-11 06:55:25.867305 : variable, type of x14 variable, <memory at 0x0000020D3FAA1000>, <class 'memoryview'>
+                             
+2025-07-11 06:55:25.869406 : __doc__: 
+                                 Binary Types: memoryview
+                                 
+2025-07-11 06:55:25.869406 : variable, type of x1 variable, None, <class 'NoneType'>
+                             
+2025-07-11 06:55:25.871482 : __doc__: 
+                                 Sequence Types:	range
+                                 
+2025-07-11 06:55:25.871482 : variable, type of x7 variable, range(0, 6), <class 'range'>
+                             
+2025-07-11 06:55:25.872495 : __doc__: 
+                                 Set Types:	set
+                                 
+2025-07-11 06:55:25.872495 : variable, type of x9 variable, {'apple', 'cherry', 'banana'}, <class 'set'>
+                             
+2025-07-11 06:55:25.873491 : __doc__: 
+                                 Text Type:	str
+                                 
+2025-07-11 06:55:25.873491 : type of x variable, <class 'int'>
+2025-07-11 06:55:25.873491 : variable, type of x1 variable, Hello World, <class 'str'>
+                             
+2025-07-11 06:55:25.874982 : __doc__: 
+                                 Sequence Types:	tuple
+                                 
+2025-07-11 06:55:25.874982 : variable, type of x6 variable, ('apple', 'banana', 'cherry'), <class 'tuple'>
+                             
+2025-07-11 06:55:25.877335 : __doc__: 
+                                 To check if a certain phrase or character is NOT present in a string, we can use the keyword not in.
+                                 
+2025-07-11 06:55:25.877335 : No, 'Hi' not present.
+                             
+2025-07-11 06:55:25.878337 : __doc__: 
+                                 To check if a certain phrase or character is present in a string, we can use the keyword in.
+                                 Check if "Hello" is present in the following string_value:
+                                 
+2025-07-11 06:55:25.878337 : Yes, 'Hello' is present.
+                             
+2025-07-11 06:55:25.879708 : __doc__: 
+                                 String Concatenation - To concatenate, or combine, two strings you can use the + operator.
+                                 To add a space between them, add a " "
+                                 
+2025-07-11 06:55:25.879708 : Concatenation of string_value1 and string_value2: hello world
+                             
+2025-07-11 06:55:25.881022 : __doc__: 
+                                 #Strings in python are surrounded by either single quotation marks, or double quotation marks. 'hello world' is the same as "hello".
+                                 #You can display a string literal with the print() function:
+                                 
+                             
+2025-07-11 06:55:25.881022 : Double Quoted String:
+2025-07-11 06:55:25.881022 : Hello, World!
+2025-07-11 06:55:25.882375 : __doc__: 
+                                 An escape character is a backslash \ followed by the character you want to insert.
+                                 
+2025-07-11 06:55:25.882375 : include a string value using ": We are the so-called "Vikings" from the north.
+                             
+2025-07-11 06:55:25.883704 : __doc__: 
+                                 Python has a set of built-in methods that you can use on strings.
+                                 The upper() method returns the string in upper case
+                                 The lower() method returns the string in lower case
+                                 The strip() method removes any whitespace from the beginning or the end
+                                 Whitespace is the space before and/or after the actual text
+                                 The replace() method replaces a string with another string:
+                                 
+2025-07-11 06:55:25.883704 : class method: string upper: HELLO WORLD 
+2025-07-11 06:55:25.883704 : class method: string lower: hello world 
+2025-07-11 06:55:25.883704 : class method: string strip: hello world
+2025-07-11 06:55:25.883704 : class method: string split: ['hello', 'world']
+2025-07-11 06:55:25.883704 : class method: string split: Hi Hello world 
+2025-07-11 06:55:25.885879 : __doc__: 
+                                 #Strings
+                                 #Strings in python are surrounded by either single quotation marks, or double quotation marks. 
+                                 # 'hello world' is the same as "hello world".
+                                 # You can display a string literal with the print() function:
+                                 
+2025-07-11 06:55:25.885879 : Single Quoted String:
+2025-07-11 06:55:25.885879 : Hello, World!
+2025-07-11 06:55:25.886878 : __doc__: 
+                                 You can return a range of characters by using the slice syntax.
+                                 Specify the start index and the end index, separated by a colon, to return a part of the string.
+                                 
+2025-07-11 06:55:25.886878 : string slicing [0:len(string_value): step]: hello
+2025-07-11 06:55:25.886878 : string slicing [0:len(string_value): step]: hell
+2025-07-11 06:55:25.886878 : string negative slicing [0:len(string_value): step]: ell
+2025-07-11 06:55:25.886878 : string slicing [0:len(string_value): step]: hl
+2025-07-11 06:55:25.886878 : string negative slicing [0:len(string_value): step]: 
+                             
+2025-07-11 06:55:25.887876 : __doc__: 
+                                 #Get the character at position 1 (remember that the first character has the position 0):
+                                 
+2025-07-11 06:55:25.887876 : string_value: Hello, World!
+2025-07-11 06:55:25.887876 : Get the string character at position 0 to 10: Hello, Wor
+                             
+2025-07-11 06:55:25.889027 : __doc__: 
+                                 we can combine strings and numbers by using f-strings or the format() method
+                                 f-string -f in front of the string literal, and add curly brackets {} as placeholders for variables and other operations.
+                                 
+                                 Placeholders and Modifiers
+                                 A placeholder can contain variables, operations, functions, and modifiers to format the value.
+                                 A modifier is included by adding a colon : followed by a legal formatting type, like .2f which means fixed point number with 2 decimals
+                                 
+2025-07-11 06:55:25.889027 : format the string: My name is John, I am 36
+2025-07-11 06:55:25.889027 : format the string - Add a placeholder for the price variable: The price is 59 dollars
+2025-07-11 06:55:25.889027 : format the string - Add a placeholder for the price variable and do math operation: The price is 1180 dollars
+                             
+2025-07-11 06:55:25.891804 : __doc__: 
+                                 #The len() function returns the length of a string:
+                             
+                                 
+2025-07-11 06:55:25.891804 : string_value: Hello, World!, length of string_value: 13
+                             
+2025-07-11 06:55:25.892996 : __doc__: 
+                                 #Looping Through a String
+                                 #Since strings are arrays, we can loop through the characters in a string, with a for loop.
+                                 #Loop through the letters in the word "banana":
+                                 
+2025-07-11 06:55:25.892996 : string_value: H
+                             )
+2025-07-11 06:55:25.892996 : string_value: H
+                             
+2025-07-11 06:55:25.892996 : string_value: e
+                             )
+2025-07-11 06:55:25.892996 : string_value: e
+                             
+2025-07-11 06:55:25.892996 : string_value: l
+                             )
+2025-07-11 06:55:25.892996 : string_value: l
+                             
+2025-07-11 06:55:25.892996 : string_value: l
+                             )
+2025-07-11 06:55:25.892996 : string_value: l
+                             
+2025-07-11 06:55:25.892996 : string_value: o
+                             )
+2025-07-11 06:55:25.892996 : string_value: o
+                             
+2025-07-11 06:55:25.892996 : string_value: ,
+                             )
+2025-07-11 06:55:25.892996 : string_value: ,
+                             
+2025-07-11 06:55:25.892996 : string_value:  
+                             )
+2025-07-11 06:55:25.892996 : string_value:  
+                             
+2025-07-11 06:55:25.892996 : string_value: W
+                             )
+2025-07-11 06:55:25.892996 : string_value: W
+                             
+2025-07-11 06:55:25.892996 : string_value: o
+                             )
+2025-07-11 06:55:25.892996 : string_value: o
+                             
+2025-07-11 06:55:25.892996 : string_value: r
+                             )
+2025-07-11 06:55:25.892996 : string_value: r
+                             
+2025-07-11 06:55:25.892996 : string_value: l
+                             )
+2025-07-11 06:55:25.892996 : string_value: l
+                             
+2025-07-11 06:55:25.892996 : string_value: d
+                             )
+2025-07-11 06:55:25.892996 : string_value: d
+                             
+2025-07-11 06:55:25.892996 : string_value: !
+                             )
+2025-07-11 06:55:25.892996 : string_value: !
+                             
+2025-07-11 06:55:25.892996 : char; H
+2025-07-11 06:55:25.892996 : char; e
+2025-07-11 06:55:25.892996 : char; l
+2025-07-11 06:55:25.892996 : char; l
+2025-07-11 06:55:25.892996 : char; o
+2025-07-11 06:55:25.892996 : char; ,
+2025-07-11 06:55:25.892996 : char;  
+2025-07-11 06:55:25.892996 : char; W
+2025-07-11 06:55:25.892996 : char; o
+2025-07-11 06:55:25.892996 : char; r
+2025-07-11 06:55:25.892996 : char; l
+2025-07-11 06:55:25.892996 : char; d
+2025-07-11 06:55:25.892996 : char; !
+2025-07-11 06:55:25.895014 : __doc__: 
+                                 #Quotes Inside Quotes
+                                 #You can use quotes inside a string, as long as they don't match the quotes surrounding the string:
+                                 #Assigning a string to a variable is done with the variable name followed by an equal sign and the string:
+                                 #Multiline Strings - You can assign a multiline string to a variable by using three quotes:
+                                 #You can use three double quotes:
+                                 #Strings are Arrays
+                                 #Like many other popular programming languages, strings in Python are arrays of bytes representing unicode characters.
+                                 #However, Python does not have a character data type, a single character is simply a string with a length of 1.
+                                 #Square brackets can be used to access elements of the string.
+                                 
+                             
+2025-07-11 06:55:25.895014 : Hi, How are you
+2025-07-11 06:55:25.895014 : Someone is there'
+2025-07-11 06:55:25.895014 : Look behind you"
+2025-07-11 06:55:25.895014 : String value: Hello world
+2025-07-11 06:55:25.895014 : Three double Quoted string with text variable : Hi,
+                                 hello,
+                                 How are you!    
+                                 Where are you.
+                             
+2025-07-11 06:55:25.895014 : Three single Quoted string with text variable: Hi,
+                                 hello,
+                                 How are you!    
+                                 Where are you.
+                             
+2025-07-11 06:55:25.897180 : string_value: Company12
+2025-07-11 06:55:25.897180 : alpha method: True
+                             
+2025-07-11 06:55:25.898178 : string_value: hello, and welcome to my world.
+2025-07-11 06:55:25.898178 : capitalize method: Hello, and welcome to my world.
+                             
+2025-07-11 06:55:25.899424 : string_value: Hello, And Welcome To My World!
+2025-07-11 06:55:25.899424 : string_value using casefold method: hello, and welcome to my world!
+                             
+2025-07-11 06:55:25.900751 : string_value: banana
+                             
+2025-07-11 06:55:25.900751 : center method:        banana       
+                             
+2025-07-11 06:55:25.900751 : string_value1: banana
+2025-07-11 06:55:25.900751 : Cenetr Method: OOOOOOObananaOOOOOOO
+                             
+2025-07-11 06:55:25.902003 : string_value: I love apples, apple are my favorite fruit
+2025-07-11 06:55:25.902003 : center method: 2
+                             
+2025-07-11 06:55:25.902003 : string_value: I love apples, apple are my favorite fruit
+2025-07-11 06:55:25.902003 : count method: 1
+                             
+2025-07-11 06:55:25.903275 : string_value: My name is Ståle
+2025-07-11 06:55:25.903275 : string_value using encode method: b'My name is St\xc3\xa5le'
+2025-07-11 06:55:25.903275 : string_value: My name is Ståle
+2025-07-11 06:55:25.903275 : string_value using enocde backslashreplace method: b'My name is St\\xe5le'
+                             
+2025-07-11 06:55:25.903275 : string_value: My name is Ståle
+2025-07-11 06:55:25.903275 : string_value using encode ascii method: b'My name is Stle'
+                             
+2025-07-11 06:55:25.903275 : string_value: My name is Ståle
+2025-07-11 06:55:25.905526 : string_value using encode namereplace method: b'My name is St\\N{LATIN SMALL LETTER A WITH RING ABOVE}le'
+                             
+2025-07-11 06:55:25.905526 : string_value: My name is Ståle
+2025-07-11 06:55:25.905526 : string_value using encode replace method: b'My name is St?le'
+                             
+2025-07-11 06:55:25.905526 : string_value: My name is Ståle
+2025-07-11 06:55:25.905526 : string_value using encode xmlcharrefreplace method: b'My name is St&#229;le'
+                             
+2025-07-11 06:55:25.907611 : string_value: Hello, welcome to my world.
+2025-07-11 06:55:25.907611 : endswith method: True
+                             
+2025-07-11 06:55:25.908603 : string_value: H	e	l	l	o
+2025-07-11 06:55:25.908603 : expandtabs method: H   e   l   l   o
+                             
+2025-07-11 06:55:25.910600 : string_value: Hello, welcome to my world.
+2025-07-11 06:55:25.910600 : find method: 7
+2025-07-11 06:55:25.910600 : string_value: Hello, welcome to my world.
+2025-07-11 06:55:25.910600 : find method: 1
+2025-07-11 06:55:25.910600 : string_value: Hello, welcome to my world.
+2025-07-11 06:55:25.910600 : find method: 1
+                             
+2025-07-11 06:55:25.911599 : string_value: 
+2025-07-11 06:55:25.911599 : For only 49.00 dollars!
+2025-07-11 06:55:25.911599 : format method using value for key: My name is John, I'm 36
+2025-07-11 06:55:25.911599 : string_value: For only {price:.2f} dollars!
+2025-07-11 06:55:25.911599 : format method using value for index: My name is John, I'm 36
+2025-07-11 06:55:25.911599 : string_value: For only {price:.2f} dollars!
+2025-07-11 06:55:25.911599 : format method using value for empty value: My name is John, I'm 36
+                             
+2025-07-11 06:55:25.913604 : string_value: Hello, welcome to my world.
+2025-07-11 06:55:25.913604 : index method: 1, 8
+                             
+2025-07-11 06:55:25.915605 : string_value: CompanyX
+2025-07-11 06:55:25.915605 : isalpha method: True
+                             
+2025-07-11 06:55:25.917606 : string_value: Company123
+2025-07-11 06:55:25.917606 : isascii method: True
+                             
+2025-07-11 06:55:25.918602 : string_value: 123
+2025-07-11 06:55:25.918602 : isdecimal method: True
+                             
+2025-07-11 06:55:25.920603 : string_value: 12345
+2025-07-11 06:55:25.920603 : isdigit method: True
+                             
+2025-07-11 06:55:25.922602 : string_value: I love apples, apple are my favorite fruit
+2025-07-11 06:55:25.922602 : isidentifier method: False
+                             
+2025-07-11 06:55:25.923607 : string_value: hello world!
+2025-07-11 06:55:25.923607 : islower method: True
+                             
+2025-07-11 06:55:25.925621 : string_value: 565543
+2025-07-11 06:55:25.925621 : isnumeric method: True
+                             
+2025-07-11 06:55:25.926619 : string_value: Hello!
+                             Are you #1?
+2025-07-11 06:55:25.926619 : isprintable method: False
+                             
+2025-07-11 06:55:25.927940 : string_value:   
+2025-07-11 06:55:25.927940 : isspace method: True
+                             
+2025-07-11 06:55:25.929192 : string_value: Hello, And Welcome To My World!
+2025-07-11 06:55:25.929192 : istitle method: True
+                             
+2025-07-11 06:55:25.930430 : __doc__: 
+                                 The isupper() method returns True if all the characters are in upper case, otherwise False.
+                                 Numbers, symbols and spaces are not checked, only alphabet characters.
+                                 
+2025-07-11 06:55:25.930430 : string_value: hello world!
+2025-07-11 06:55:25.930430 : isupper method: False
+2025-07-11 06:55:25.931650 : string_value: ('John', 'Peter', 'Vicky')
+2025-07-11 06:55:25.931650 : mySeparator: TEST
+2025-07-11 06:55:25.931650 : join method: John#Peter#Vicky
+                             
+2025-07-11 06:55:25.931650 : string_value: {'name': 'John', 'country': 'Norway'}
+2025-07-11 06:55:25.931650 : join method: nameTESTcountry
+                             
+2025-07-11 06:55:25.932865 : string_value: Hello, And Welcome To My World!
+2025-07-11 06:55:25.932865 : ljust method: Hello, And Welcome To My World!
+                             
+2025-07-11 06:55:25.934133 : string_value: Hello, And Welcome To My World!
+2025-07-11 06:55:25.934133 : lstrip method: Hello, And Welcome To My World!
+                             
+2025-07-11 06:55:25.935635 : string_value: Hello Sam!, string_value using maketrans method: {83: 80}
+2025-07-11 06:55:25.935635 : string_value: Hello Sam!
+2025-07-11 06:55:25.935635 : translate method: Hello Pam!
+                             
+2025-07-11 06:55:25.938072 : string_value: I could eat bananas all day
+2025-07-11 06:55:25.938072 : partition method: ('I could eat ', 'bananas', ' all day')
+                             
+2025-07-11 06:55:25.939083 : string_value: Hello, And Welcome To My World!
+2025-07-11 06:55:25.939083 : string_value using replace method: Hello, All Welcome To My World!
+                             
+2025-07-11 06:55:25.940416 : string_value: Hello, And Welcome To My World!
+2025-07-11 06:55:25.940416 : rfind method: 11
+                             
+2025-07-11 06:55:25.941763 : string_value: Hello, And Welcome To My World!
+2025-07-11 06:55:25.941763 : rindex method: 11
+                             
+2025-07-11 06:55:25.943013 : string_value: Hello, And Welcome To My World!
+2025-07-11 06:55:25.943013 : rjust method: Hello, And Welcome To My World!
+                             
+2025-07-11 06:55:25.944264 : string_value: Hello, And Welcome To My World!
+2025-07-11 06:55:25.944264 : rpartition method: ('Hello, And ', 'Welcome', ' To My World!')
+                             
+2025-07-11 06:55:25.945483 : string_value: Hello, And Welcome To My World!
+2025-07-11 06:55:25.945483 : rsplit method: ['Hello, And ', ' To My World!']
+                             
+2025-07-11 06:55:25.946697 : string_value: Hello, And Welcome To My World!
+2025-07-11 06:55:25.946697 : rstrip method: Hello, And Welcome To My World!
+                             
+2025-07-11 06:55:25.947982 : string_value: Hello, World!
+2025-07-11 06:55:25.947982 : string_output1: string_value[0:5]: Hello
+2025-07-11 06:55:25.947982 : string_output2: string_value[-4:-1]:vHello
+2025-07-11 06:55:25.947982 : positive slicing method
+2025-07-11 06:55:25.947982 : string_value[2:5]: llo
+2025-07-11 06:55:25.947982 : string_value[:5]: Hello
+2025-07-11 06:55:25.947982 : string_value[:2]: He
+                             
+2025-07-11 06:55:25.947982 : negative slicing method
+2025-07-11 06:55:25.947982 : string_value[-5:-2],orl
+                             
+2025-07-11 06:55:25.949170 : string_value: hello, my name is Peter, I am 26 years old
+2025-07-11 06:55:25.949170 : split method ',': ['hello', 'my name is Peter', 'I am 26 years old']
+2025-07-11 06:55:25.949170 : string_value: hello, my name is Peter, I am 26 years old
+2025-07-11 06:55:25.949170 : split method '#': ['hello, my name is Peter, I am 26 years old']
+2025-07-11 06:55:25.950654 : string_value: Thank you for the music
+                             Welcome to the jungle
+2025-07-11 06:55:25.950654 : splitlines method: ['Thank you for the music', 'Welcome to the jungle']
+                             
+2025-07-11 06:55:25.950654 : string_value: Thank you for the music
+                             Welcome to the jungle
+2025-07-11 06:55:25.950654 : splitlines method: ['Thank you for the music\n', 'Welcome to the jungle']
+                             
+2025-07-11 06:55:25.951908 : string_value: Hello, welcome to my world.
+2025-07-11 06:55:25.951908 : startswith method: True
+                             
+2025-07-11 06:55:25.951908 : string_value: Hello, welcome to my world.
+2025-07-11 06:55:25.951908 : startswith method: True
+2025-07-11 06:55:25.953195 : __doc__: 
+                                 The swapcase() method returns a string where all the upper case letters are lower case and vice versa.
+                                 
+2025-07-11 06:55:25.953195 : string_value: ,,,,,rrttgg.....banana....rrr
+2025-07-11 06:55:25.953195 : strip method: banana
+                             
+2025-07-11 06:55:25.955621 : string_value: Hello My Name Is PETER
+2025-07-11 06:55:25.955621 : swapcase method: hELLO mY nAME iS peter
+2025-07-11 06:55:25.956634 : string_value: Welcome to my 2nd world
+2025-07-11 06:55:25.956634 : title method: Welcome To My 2Nd World
+                             
+2025-07-11 06:55:25.958961 : string_value: 12345
+2025-07-11 06:55:25.958961 : zfill method: 0000012345
+                             
+2025-07-11 06:55:25.959959 : __doc__: 
+                                 Accessing an element a tuple
+                                 
+2025-07-11 06:55:25.959959 : tuple: (1, 2, 3, 4, 5)
+2025-07-11 06:55:25.959959 : Accessing an element 0: 1
+2025-07-11 06:55:25.959959 : Accessing an element 1: 2
+2025-07-11 06:55:25.959959 : Accessing an element 2: 3
+2025-07-11 06:55:25.962535 : __doc__: 
+                                 Find the common elements between two tuple
+                                 
+2025-07-11 06:55:25.962535 : tuple: (1, 2, 3, 4)
+2025-07-11 06:55:25.962535 : tuple1: (1, 2, 3, 4)
+2025-07-11 06:55:25.962535 : tuple2: (1, 2, 3)
+2025-07-11 06:55:25.962535 : common element in tuple1 and tuple2 : (1, 2, 3)
+2025-07-11 06:55:25.964648 : __doc__: 
+                                 concatenate two tuples
+                                 
+2025-07-11 06:55:25.964648 : tuple1: (1, 2, 3)
+2025-07-11 06:55:25.964648 : tuple2: (4, 5, 6)
+2025-07-11 06:55:25.964648 : concatenation of tuple1, tuple2: (1, 2, 3, 4, 5, 6)
+2025-07-11 06:55:25.965657 : __doc__: 
+                                 convert tuple to a string
+                                 
+2025-07-11 06:55:25.965657 : tuple: (1, 2, 3, 4, 5)
+2025-07-11 06:55:25.965657 : convert tuple to a string : (1, 2, 3, 4, 5)
+2025-07-11 06:55:25.966794 : __doc__: 
+                                 count the occurance of aan element in a tuple
+                                 
+2025-07-11 06:55:25.966794 : tuple: (1, 2, 3, 4, 5, 1, 2, 2)
+2025-07-11 06:55:25.966794 : Find the count of 3: 1
+2025-07-11 06:55:25.968061 : __doc__: 
+                                 check if an element exist or not in a tuple
+                                 
+2025-07-11 06:55:25.968061 : tuple: hello, helloworld
+2025-07-11 06:55:25.968061 : True
+2025-07-11 06:55:25.969317 : __doc__: 
+                                 to find the index of an element in a tuple
+                                 
+2025-07-11 06:55:25.969317 : find an element 2  of index in a tuple: 2
+2025-07-11 06:55:25.970430 : __doc__: 
+                                 Find the first and last element in a tuple
+                                 
+2025-07-11 06:55:25.970430 : tuple: (10, 20, 30, 40, 50)
+2025-07-11 06:55:25.970430 : first element: 10, last element: 50
+2025-07-11 06:55:25.972934 : __doc__: 
+                                 Find the frequency of items in a tuple
+                                 
+2025-07-11 06:55:25.972934 : tuple: (1, 2, 3, 1, 2, 3, 4, 5)
+2025-07-11 06:55:25.972934 : Frequency of items in a tuple: {1: 1}
+2025-07-11 06:55:25.972934 : Frequency of items in a tuple: {1: 1, 2: 1}
+2025-07-11 06:55:25.972934 : Frequency of items in a tuple: {1: 1, 2: 1, 3: 1}
+2025-07-11 06:55:25.972934 : Frequency of items in a tuple: {1: 2, 2: 1, 3: 1}
+2025-07-11 06:55:25.972934 : Frequency of items in a tuple: {1: 2, 2: 2, 3: 1}
+2025-07-11 06:55:25.972934 : Frequency of items in a tuple: {1: 2, 2: 2, 3: 2}
+2025-07-11 06:55:25.972934 : Frequency of items in a tuple: {1: 2, 2: 2, 3: 2, 4: 1}
+2025-07-11 06:55:25.972934 : Frequency of items in a tuple: {1: 2, 2: 2, 3: 2, 4: 1, 5: 1}
+2025-07-11 06:55:25.973933 : __doc__: 
+                                 sum of all items in a tuple
+                                 
+2025-07-11 06:55:25.973933 : tuple: (1, 2, 3, 4, 5)
+2025-07-11 06:55:25.973933 : Product - sum of total value in a tuple: 120
+2025-07-11 06:55:25.976083 : __doc__: 
+                                 iterate through a tuple using a loop
+                                 
+2025-07-11 06:55:25.976083 : tup: (10, 20, 30, 40, 50)
+2025-07-11 06:55:25.976083 : iterate through for loop in a tuple :10
+2025-07-11 06:55:25.976083 : iterate through for loop in a tuple :20
+2025-07-11 06:55:25.976083 : iterate through for loop in a tuple :30
+2025-07-11 06:55:25.976083 : iterate through for loop in a tuple :40
+2025-07-11 06:55:25.976083 : iterate through for loop in a tuple :50
+2025-07-11 06:55:25.977094 : __doc__:    
+                                 Find the length of tuple
+                                 
+2025-07-11 06:55:25.977094 : tuple1: (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+2025-07-11 06:55:25.977094 : Find the length of tuple1: 10
+2025-07-11 06:55:25.979077 : __doc__: 
+                                 To convert list to tuple
+                                 
+2025-07-11 06:55:25.979077 : list1: [1, 2, 3, 4, 5]
+2025-07-11 06:55:25.979077 : tuple: (1, 2, 3, 4, 5)
+2025-07-11 06:55:25.980077 : __doc__: 
+                                 Merge two tuples and remove duplicates
+                                 
+2025-07-11 06:55:25.980077 : tuple1: (1, 2, 3, 4, 5, 6)
+2025-07-11 06:55:25.980077 : tuple2: (1, 2, 3, 4)
+2025-07-11 06:55:25.980077 : Merge two tuples and remove duplicates: (1, 2, 3, 4, 5, 6)
+2025-07-11 06:55:25.982436 : __doc__: 
+                                 To find the minimum and maximum element in a tuple
+                                 
+2025-07-11 06:55:25.982436 : tup: (10, 20, 30, 40, 50)
+2025-07-11 06:55:25.982436 : Minimum value in tuple10: 10
+2025-07-11 06:55:25.982436 : Maximum value in tuple10: 10
+2025-07-11 06:55:25.984432 : __doc__: 
+                                 Remove an element from a tuple
+                                 
+2025-07-11 06:55:25.984432 : tuple: (1, 2, 3, 4, 5, 3)
+2025-07-11 06:55:25.984432 : removing element 200 from a tuple13 : (1, 2, 4, 5)
+2025-07-11 06:55:25.986452 : __doc__: 
+                                 Remove the duplicates in a tuple
+                                 
+2025-07-11 06:55:25.986452 : tuple: (1, 2, 3, 1, 2, 3, 4, 5)
+2025-07-11 06:55:25.986452 : After remove duplicates in a tuple : {1, 2, 3, 4, 5}
+2025-07-11 06:55:25.987456 : __doc__: 
+                                 find the second largest element in a tuple
+                                 
+2025-07-11 06:55:25.987456 : tuple: (20, 10, 3, 4, 5, 6, 7)
+2025-07-11 06:55:25.987456 : second largest value in a tuple : 10
+2025-07-11 06:55:25.988953 : __doc__: 
+                                 Find the sorted output of all elements in a tuple
+                                 
+2025-07-11 06:55:25.988953 : tuple: (10, 1, 3, 2, 100, 10, 40, 60)
+2025-07-11 06:55:25.988953 : sorted tuple: [1, 2, 3, 10, 10, 40, 60, 100]
+2025-07-11 06:55:25.991382 : __doc__: 
+                                 Find the sum of all elements in a tuple
+                                 
+2025-07-11 06:55:25.991382 : tuple: (1, 2, 3, 4, 5)
+2025-07-11 06:55:25.991382 : sum of total value in a tuple: 15
+2025-07-11 06:55:25.993365 : __doc__: 
+                                 find the difference between two tuples
+                                 
+2025-07-11 06:55:25.993365 : tuple1: (1, 2, 3, 4, 5), tuple2: (1, 2, 3)
+2025-07-11 06:55:25.993365 : difference between tuple1 and tuple2 : (4, 5)
+2025-07-11 06:55:25.995366 : __doc__: 
+                                 Even or odd function using a tuple
+                                 
+2025-07-11 06:55:25.995366 : tuple: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+2025-07-11 06:55:25.995366 : even_count5, odd_count: 5
+2025-07-11 06:55:25.996364 : __doc__: 
+                                 convert a tuple of integers to a tuple of strings
+                                 
+2025-07-11 06:55:25.996364 : tuple: (1, 2, 3, 4, 5)
+2025-07-11 06:55:25.996364 : convert a tuple of integers to a tuple of strings: ('(', '1', ',', ' ', '2', ',', ' ', '3', ',', ' ', '4', ',', ' ', '5', ')')
+2025-07-11 06:55:25.997365 : __doc__: 
+                                 convert a tuple of strings to a single string
+                                 
+2025-07-11 06:55:25.997365 : tup: ('h', 'e', 'l', 'l', 'o')
+2025-07-11 06:55:25.997365 : tuple after string conversion: hello
+2025-07-11 06:55:25.998669 : __doc__:    
+                                 Find the index in a tuple
+                                 
+2025-07-11 06:55:25.998669 : tuple: (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+2025-07-11 06:55:25.998669 : Find the index in a tuple: 2
+2025-07-11 06:55:25.999978 : __doc__:    
+                                 Find the index in a tuple
+                                 
+2025-07-11 06:55:25.999978 : tuple: (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+2025-07-11 06:55:25.999978 : Find the index in a tuple: 3
+2025-07-11 06:55:26.001821 : List1: ['apple', 'banana', 'cherry']
+2025-07-11 06:55:26.001821 : List append method: ['apple', 'banana', 'cherry', 'orange']
+                             
+2025-07-11 06:55:26.003031 : List1 before clear: ['apple', 'banana', 'cherry']
+                             
+2025-07-11 06:55:26.003031 : List after clear method: []
+                             
+2025-07-11 06:55:26.005401 : List1: ['apple', 'banana', 'cherry']
+2025-07-11 06:55:26.005401 : List2 before copy: ['apple', 'banana', 'cherry']
+2025-07-11 06:55:26.005401 : List2 after copy method: ['apple', 'banana', 'cherry']
+                             
+2025-07-11 06:55:26.006400 : List1: ['apple', 'banana', 'cherry', 'apple']
+2025-07-11 06:55:26.006400 : List1 count: 2
+                             
+2025-07-11 06:55:26.008080 : List1: ['apple', 'banana', 'cherry']
+2025-07-11 06:55:26.008080 : List2: ['Ford', 'BMW', 'Volvo']
+2025-07-11 06:55:26.008080 : Extend of list1 with list2: ['apple', 'banana', 'cherry', 'Ford', 'BMW', 'Volvo']
+                             
+2025-07-11 06:55:26.009465 : List1: ['apple', 'banana', 'cherry']
+2025-07-11 06:55:26.009465 : index of 'apple' in list1: 0
+                             
+2025-07-11 06:55:26.011441 : List1: ['apple', 'banana', 'cherry']
+2025-07-11 06:55:26.011441 : insert of 'orange' in index1 in list1: ['apple', 'orange', 'banana', 'cherry']
+                             
+2025-07-11 06:55:26.012681 : List1: ['apple', 'banana', 'cherry']
+2025-07-11 06:55:26.012681 : After pop of index 1 iin a list1: ['apple', 'cherry']
+                             
+2025-07-11 06:55:26.014700 : List1: ['apple', 'banana', 'cherry']
+2025-07-11 06:55:26.014700 : After remove 'banana' 1 iin a list1: ['apple', 'cherry']
+                             
+2025-07-11 06:55:26.015700 : List1: ['apple', 'banana', 'cherry']
+2025-07-11 06:55:26.015700 : After reverse the list1: ['cherry', 'banana', 'apple']
+                             
+2025-07-11 06:55:26.016899 : List1 before sort: ['Ford', 'BMW', 'Volvo']
+2025-07-11 06:55:26.016899 : After sort the list: ['BMW', 'Ford', 'Volvo']
+2025-07-11 06:55:26.019100 : Before append the list:
+2025-07-11 06:55:26.019100 : [10, 20, 30]
+2025-07-11 06:55:26.019100 : After Append the list:
+2025-07-11 06:55:26.019100 : [10, 20, 30, 40]
+2025-07-11 06:55:26.019100 : 40 is appended successfully
+2025-07-11 06:55:26.019100 : 40 is exist in list
+2025-07-11 06:55:26.021100 : Before clear the list1: [10, 20, 30, 40]
+2025-07-11 06:55:26.021100 : All items not cleared properly in list: []
+2025-07-11 06:55:26.023101 : list1: [1, 2, 3]
+2025-07-11 06:55:26.023101 : list2: []
+2025-07-11 06:55:26.023101 : list3: []
+2025-07-11 06:55:26.023101 : list4: []
+2025-07-11 06:55:26.023101 : After copy list2: [1, 2, 3]
+2025-07-11 06:55:26.023101 : After shallowcopy list2: [10, 1, 2, 3]
+2025-07-11 06:55:26.023101 : After copy list3: [1, 2, 3]
+2025-07-11 06:55:26.023101 : id of list1: 2255926041024
+2025-07-11 06:55:26.023101 : id of list2: 2255926042944
+2025-07-11 06:55:26.023101 : id of list3: 2255926041024
+2025-07-11 06:55:26.023101 : After deepcopy of list1: [1, 2, 3]
+2025-07-11 06:55:26.023101 : After depcopy list4: [100, 1, 2, 3]
+2025-07-11 06:55:26.023101 : Both list1 and list2 ID's or reference Address not same: True
+2025-07-11 06:55:26.023101 : Both list1 and list3 ID's or reference Address same: True
+2025-07-11 06:55:26.023101 : Both list1 and list4 ID's or reference Address not same: True
+2025-07-11 06:55:26.025102 : A list is a mutable, ordered collection of elements.
+                                             Mutable means that you can change the elements of a list after it is created.
+                                             Lists are defined using square brackets [] or list()
+2025-07-11 06:55:26.025102 : Create a list: []
+2025-07-11 06:55:26.025102 : List created successfully using list() constructor method
+2025-07-11 06:55:26.026103 : Before extend the list: []
+2025-07-11 06:55:26.026103 : After Extend the list: [1, 2, 3]
+2025-07-11 06:55:26.026103 : 1 is exist in list
+2025-07-11 06:55:26.026103 : 2 is exist in list
+2025-07-11 06:55:26.026103 : 3 is exist in list
+2025-07-11 06:55:26.028596 : list1: [1, 2, 3]
+2025-07-11 06:55:26.028596 : Count: 1, value: 1
+2025-07-11 06:55:26.028596 : count: 1 value: 1
+2025-07-11 06:55:26.029607 : list1: [1, 2, 3]
+2025-07-11 06:55:26.029607 : index: 1, listvalue: 2
+2025-07-11 06:55:26.029607 : Index value: 1 for value: 2
+2025-07-11 06:55:26.031833 : listvalue: ['apple', 'orange', 'watermelon', 'Bannana', 'pineapple', 'pomogranite', 'Kiwi']
+2025-07-11 06:55:26.031833 : Accessing element if indx == 0
+2025-07-11 06:55:26.031833 : 0
+2025-07-11 06:55:26.031833 : apple
+2025-07-11 06:55:26.031833 : Accessing element if indx == 0
+2025-07-11 06:55:26.031833 : 1
+2025-07-11 06:55:26.031833 : orange
+2025-07-11 06:55:26.031833 : Accessing element if indx == 0
+2025-07-11 06:55:26.031833 : 2
+2025-07-11 06:55:26.031833 : watermelon
+2025-07-11 06:55:26.031833 : Accessing element if indx == 0
+2025-07-11 06:55:26.031833 : 3
+2025-07-11 06:55:26.031833 : Bannana
+2025-07-11 06:55:26.031833 : Accessing element if indx == 0
+2025-07-11 06:55:26.031833 : 4
+2025-07-11 06:55:26.031833 : pineapple
+2025-07-11 06:55:26.031833 : Accessing element if indx == 0
+2025-07-11 06:55:26.031833 : 5
+2025-07-11 06:55:26.031833 : pomogranite
+2025-07-11 06:55:26.031833 : Accessing element if indx == 0
+2025-07-11 06:55:26.031833 : 6
+2025-07-11 06:55:26.031833 : Kiwi
+2025-07-11 06:55:26.032849 : listvalue: ['apple', 'orange', 'watermelon', 'Bannana', 'pineapple', 'pomogranite', 'Kiwi']
+2025-07-11 06:55:26.032849 : Accessing element if indx == 2
+2025-07-11 06:55:26.032849 : 0
+2025-07-11 06:55:26.032849 : apple
+2025-07-11 06:55:26.032849 : Accessing element if indx == 2
+2025-07-11 06:55:26.032849 : 1
+2025-07-11 06:55:26.032849 : orange
+2025-07-11 06:55:26.034285 : listvalue: ['apple', 'orange', 'watermelon', 'Bannana', 'pineapple', 'pomogranite', 'Kiwi']
+2025-07-11 06:55:26.034285 : Accessing element if indx is less than 3:
+2025-07-11 06:55:26.034285 : 0
+2025-07-11 06:55:26.034285 : apple
+2025-07-11 06:55:26.034285 : Accessing element if indx is less than 3:
+2025-07-11 06:55:26.034285 : 1
+2025-07-11 06:55:26.034285 : orange
+2025-07-11 06:55:26.034285 : Accessing element if indx is less than 3:
+2025-07-11 06:55:26.034285 : 2
+2025-07-11 06:55:26.034285 : watermelon
+2025-07-11 06:55:26.034285 : Accessing element if indx is less than 3:
+2025-07-11 06:55:26.034285 : 3
+2025-07-11 06:55:26.034285 : Bannana
+2025-07-11 06:55:26.036703 : Before insert the value in list1: [1, 2, 3]
+2025-07-11 06:55:26.036703 : After insert the value [1, 2, 3] in index value 0
+2025-07-11 06:55:26.036703 : index: 0, insertvalue: 100, list1: [100, 1, 2, 3]
+2025-07-11 06:55:26.039554 : listvalue: ['apple', 'orange', 'watermelon', 'Bannana', 'pineapple', 'pomogranite', 'Kiwi']
+2025-07-11 06:55:26.039554 : Accessing element using enumerate function:
+2025-07-11 06:55:26.039554 : 0
+2025-07-11 06:55:26.039554 : apple
+2025-07-11 06:55:26.039554 : Accessing element using enumerate function:
+2025-07-11 06:55:26.039554 : 1
+2025-07-11 06:55:26.039554 : orange
+2025-07-11 06:55:26.039554 : Accessing element using enumerate function:
+2025-07-11 06:55:26.039554 : 2
+2025-07-11 06:55:26.039554 : watermelon
+2025-07-11 06:55:26.039554 : Accessing element using enumerate function:
+2025-07-11 06:55:26.039554 : 3
+2025-07-11 06:55:26.039554 : Bannana
+2025-07-11 06:55:26.039554 : Accessing element using enumerate function:
+2025-07-11 06:55:26.039554 : 4
+2025-07-11 06:55:26.039554 : pineapple
+2025-07-11 06:55:26.039554 : Accessing element using enumerate function:
+2025-07-11 06:55:26.039554 : 5
+2025-07-11 06:55:26.039554 : pomogranite
+2025-07-11 06:55:26.039554 : Accessing element using enumerate function:
+2025-07-11 06:55:26.039554 : 6
+2025-07-11 06:55:26.039554 : Kiwi
+2025-07-11 06:55:26.041577 : listvalue: ['apple', 'orange', 'watermelon', 'Bannana', 'pineapple', 'pomogranite', 'Kiwi']
+2025-07-11 06:55:26.041577 : Positive slicing - Accessing each item: 0 apple
+2025-07-11 06:55:26.041577 : Positive slicing - Accessing each item: 2 watermelon
+2025-07-11 06:55:26.041577 : Positive slicing - Accessing each item: 4 pineapple
+2025-07-11 06:55:26.041577 : Positive slicing - Accessing each item: 6 Kiwi
+2025-07-11 06:55:26.043579 : listvalue: ['apple', 'orange', 'watermelon', 'Bannana', 'pineapple', 'pomogranite', 'Kiwi']
+2025-07-11 06:55:26.043579 : Accessing element using range and length:
+2025-07-11 06:55:26.043579 : apple
+2025-07-11 06:55:26.043579 : Accessing element using range and length:
+2025-07-11 06:55:26.043579 : orange
+2025-07-11 06:55:26.043579 : Accessing element using range and length:
+2025-07-11 06:55:26.043579 : watermelon
+2025-07-11 06:55:26.043579 : Accessing element using range and length:
+2025-07-11 06:55:26.043579 : Bannana
+2025-07-11 06:55:26.043579 : Accessing element using range and length:
+2025-07-11 06:55:26.043579 : pineapple
+2025-07-11 06:55:26.043579 : Accessing element using range and length:
+2025-07-11 06:55:26.043579 : pomogranite
+2025-07-11 06:55:26.043579 : Accessing element using range and length:
+2025-07-11 06:55:26.043579 : Kiwi
+2025-07-11 06:55:26.045635 : listvalue: ['apple', 'orange', 'watermelon', 'Bannana', 'pineapple', 'pomogranite', 'Kiwi']
+2025-07-11 06:55:26.045635 : Length of list: 7
+2025-07-11 06:55:26.045635 : dir of list: ['__add__', '__class__', '__class_getitem__', '__contains__', '__delattr__', '__delitem__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__iadd__', '__imul__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__rmul__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
+2025-07-11 06:55:26.045635 : Positive Slicing: ['watermelon', 'Bannana', 'pineapple', 'pomogranite', 'Kiwi']
+2025-07-11 06:55:26.045635 : Negative Slicing: ['Kiwi', 'pomogranite', 'pineapple', 'Bannana', 'watermelon', 'orange', 'apple']
+2025-07-11 06:55:26.045635 : Accessing each item: apple
+2025-07-11 06:55:26.045635 : Accessing each item: orange
+2025-07-11 06:55:26.045635 : Accessing each item: watermelon
+2025-07-11 06:55:26.045635 : Accessing each item: Bannana
+2025-07-11 06:55:26.045635 : Accessing each item: pineapple
+2025-07-11 06:55:26.045635 : Accessing each item: pomogranite
+2025-07-11 06:55:26.045635 : Accessing each item: Kiwi
+2025-07-11 06:55:26.047158 : Before remove the value in list1: [100, 1, 2, 3]
+2025-07-11 06:55:26.047158 : After remove the value 1 from the list1: [100, 2, 3]
+2025-07-11 06:55:26.049207 : Before reverse the list1: [100, 2, 3]
+2025-07-11 06:55:26.049207 : After reverse the list1: [3, 2, 100]
+2025-07-11 06:55:26.050207 : Before sort the list1: [3, 2, 100]
+2025-07-11 06:55:26.050207 : After sort the list1: [2, 3, 100]
+2025-07-11 06:55:26.051205 : odd.union(even)
+2025-07-11 06:55:26.051205 : frozenset({1, 2, 3, 4, 5, 6})
+2025-07-11 06:55:26.051205 : odd.intersection(even)
+2025-07-11 06:55:26.051205 : frozenset()
+2025-07-11 06:55:26.051205 : odd.issubset(even)
+2025-07-11 06:55:26.051205 : False
+2025-07-11 06:55:26.053615 : set x: {'apple', 'cherry', 'banana'}
+2025-07-11 06:55:26.053615 : Adding new value to set x: {'apple', 'Orange', 'cherry', 'banana'}
+                             
+2025-07-11 06:55:26.055638 : fruits: {'apple', 'cherry', 'banana'}
+2025-07-11 06:55:26.055638 : fruits: set()
+2025-07-11 06:55:26.057638 : set x: {'apple', 'cherry', 'banana'}
+2025-07-11 06:55:26.057638 : copy of x: {'apple', 'cherry', 'banana'}
+2025-07-11 06:55:26.058643 : set x: {'apple', 'cherry', 'banana'}
+2025-07-11 06:55:26.058643 : set y: {'apple', 'google', 'microsoft'}
+2025-07-11 06:55:26.058643 : x.difference(y): {'cherry', 'banana'}
+2025-07-11 06:55:26.058643 : y.difference(x): {'apple', 'google', 'microsoft'}
+2025-07-11 06:55:26.060152 : set x: {'apple', 'cherry', 'banana'}
+2025-07-11 06:55:26.060152 : set y: {'apple', 'google', 'microsoft'}
+2025-07-11 06:55:26.060152 : x.difference_update(y): {'cherry', 'banana'}
+2025-07-11 06:55:26.060152 : y.difference_update(x): {'apple', 'google', 'microsoft'}
+2025-07-11 06:55:26.063628 : {'apple', 'cherry'}
+2025-07-11 06:55:26.064627 : set x: {'apple', 'cherry', 'banana'}
+2025-07-11 06:55:26.064627 : set y: {'apple', 'google', 'microsoft'}
+2025-07-11 06:55:26.064627 : x.intersection(y): {'apple'}
+2025-07-11 06:55:26.067086 : set x: {'apple', 'cherry', 'banana'}
+2025-07-11 06:55:26.067086 : set y: {'apple', 'google', 'microsoft'}
+2025-07-11 06:55:26.067086 : x.intersection(y): {'apple'}
+2025-07-11 06:55:26.069097 : set x: {'apple', 'cherry', 'banana'}
+2025-07-11 06:55:26.069097 : set y: {'apple', 'google', 'microsoft'}
+2025-07-11 06:55:26.069097 : x.isdisjoint(y): z: False
+2025-07-11 06:55:26.071220 : set x: {'apple', 'cherry', 'banana'}
+2025-07-11 06:55:26.071220 : set y: {'apple', 'google', 'microsoft'}
+2025-07-11 06:55:26.071220 : x.issubset(y) : z: False
+2025-07-11 06:55:26.072219 : set x: {'apple', 'cherry', 'banana'}
+2025-07-11 06:55:26.072219 : set y: {'apple', 'google', 'microsoft'}
+2025-07-11 06:55:26.072219 : x.issuperset(y): False
+2025-07-11 06:55:26.074475 : set x: {'apple', 'cherry', 'banana'}
+2025-07-11 06:55:26.074475 : set y: {'apple', 'google', 'microsoft'}
+2025-07-11 06:55:26.074475 : len(x) : 3
+2025-07-11 06:55:26.074475 : len(y) : 3
+2025-07-11 06:55:26.075505 : set x: {'apple', 'cherry', 'banana'}
+2025-07-11 06:55:26.075505 : set y: {'apple', 'google', 'microsoft'}
+2025-07-11 06:55:26.075505 : set x: {'apple', 'cherry', 'banana'}
+2025-07-11 06:55:26.075505 : x.pop()  :
+2025-07-11 06:55:26.075505 : apple
+2025-07-11 06:55:26.077742 : fruits  : {'apple', 'cherry', 'banana'}
+2025-07-11 06:55:26.077742 : fruits after remove banana  : {'apple', 'cherry'}
+2025-07-11 06:55:26.079083 : set x: {'apple', 'cherry', 'banana'}
+2025-07-11 06:55:26.079083 : set y: {'apple', 'google', 'microsoft'}
+2025-07-11 06:55:26.079083 : x.symmetric_difference(y): {'banana', 'cherry', 'google', 'microsoft'}
+2025-07-11 06:55:26.079083 : symmetric_difference : z = x^y: {'banana', 'cherry', 'google', 'microsoft'}
+2025-07-11 06:55:26.080109 : set x: {'apple', 'cherry', 'banana'}
+2025-07-11 06:55:26.080109 : set y: {'apple', 'google', 'microsoft'}
+2025-07-11 06:55:26.080109 : x.symmetric_difference_update(y)  : None
+2025-07-11 06:55:26.082158 : set x: {'apple', 'cherry', 'banana'} type: <class 'set'>
+2025-07-11 06:55:26.082158 : set y: {'apple', 'google', 'microsoft'}, type: <class 'set'>
+                             
+2025-07-11 06:55:26.083163 : set x: {'apple', 'cherry', 'banana'}
+2025-07-11 06:55:26.083163 : set y: {'apple', 'google', 'microsoft'}
+2025-07-11 06:55:26.083163 : set union: {'apple', 'banana', 'microsoft', 'cherry', 'google'}
+2025-07-11 06:55:26.085137 : set x: {'apple', 'cherry', 'banana'}
+2025-07-11 06:55:26.085137 : set y: {'apple', 'google', 'microsoft'}
+2025-07-11 06:55:26.085137 : After set update  : {'apple', 'banana', 'microsoft', 'cherry', 'google'}
+2025-07-11 06:55:26.087355 : this_dict, {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+2025-07-11 06:55:26.087355 : Print the "brand" value of the dictionary, Ford
+2025-07-11 06:55:26.088367 : Access Dictionary Items: {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+2025-07-11 06:55:26.088367 : Get the value of the "model" key: Mustang
+2025-07-11 06:55:26.089514 : new_item: {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+2025-07-11 06:55:26.089514 : before the key change: dict_keys(['brand', 'model', 'year'])
+2025-07-11 06:55:26.089514 : After the key change: dict_keys(['brand', 'model', 'year', 'color'])
+2025-07-11 06:55:26.092083 : _dict: {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+2025-07-11 06:55:26.092083 : After clear the dictionary _dict): {}
+2025-07-11 06:55:26.093088 : Using the dict() method to make a dictionary, {'name': 'John', 'age': 36, 'country': 'Norway'}
+2025-07-11 06:55:26.095418 : _dict: {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+2025-07-11 06:55:26.095418 : After copy of mydict: {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+2025-07-11 06:55:26.095418 : dict1: {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+2025-07-11 06:55:26.095418 : After copy of mydict: {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+2025-07-11 06:55:26.096403 : dict_: {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+2025-07-11 06:55:26.096403 : After delete 'Model' key in dict_): {'brand': 'Ford', 'year': 1964}
+2025-07-11 06:55:26.097638 : _dict: {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+2025-07-11 06:55:26.097638 : Loop through both keys and values: brand value: Ford
+2025-07-11 06:55:26.097638 : Loop through both keys and values: model value: Mustang
+2025-07-11 06:55:26.097638 : Loop through both keys and values: year value: 1964
+2025-07-11 06:55:26.097638 : Iterate value one by one: Ford
+2025-07-11 06:55:26.097638 : Iterate value one by one: Mustang
+2025-07-11 06:55:26.097638 : Iterate value one by one: 1964
+2025-07-11 06:55:26.097638 : Iterate key one by one: brand
+2025-07-11 06:55:26.097638 : Iterate key one by one: model
+2025-07-11 06:55:26.097638 : Iterate key one by one: year
+2025-07-11 06:55:26.099102 : x1: ('key1', 'key2', 'key3')
+2025-07-11 06:55:26.099102 : y1: 0
+2025-07-11 06:55:26.099102 : dict.fromkeys method used to update keys x1, values y1 in this_dict dictionary : {'key1': 0, 'key2': 0, 'key3': 0}
+2025-07-11 06:55:26.099102 : x2: ('key1', 'key2', 'key3')
+2025-07-11 06:55:26.099102 : dict.fromkeys method used to update keys in this_dict dictionary : {'key1': None, 'key2': None, 'key3': None}
+2025-07-11 06:55:26.100560 : elem_dict: {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+2025-07-11 06:55:26.100560 : Get the value of the "model" key: Mustang
+2025-07-11 06:55:26.102000 : car: {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+2025-07-11 06:55:26.102000 : Get a list of the key:value pairs: dict_items([('brand', 'Ford'), ('model', 'Mustang'), ('year', 1964)])
+2025-07-11 06:55:26.102000 : Get a list of the key:value pairs after the value change for year key : dict_items([('brand', 'Ford'), ('model', 'Mustang'), ('year', 2020)])
+2025-07-11 06:55:26.102000 : Get a list of the key:value pairs: dict_items([('brand', 'Ford'), ('model', 'Mustang'), ('year', 1964)])
+2025-07-11 06:55:26.102000 : Get a list of the key:value pairs after updating new key and value: {'brand': 'Ford', 'model': 'Mustang', 'year': 1964, 'color': 'red'}
+2025-07-11 06:55:26.104710 : this_dict: {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+2025-07-11 06:55:26.104710 : Yes, 'model' is one of the keys in the {'brand': 'Ford', 'model': 'Mustang', 'year': 1964} dictionary
+2025-07-11 06:55:26.105741 : elem_dict: {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+2025-07-11 06:55:26.105741 : Get a list of the keys: dict_keys(['brand', 'model', 'year'])
+2025-07-11 06:55:26.108456 : _dict_val: {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+2025-07-11 06:55:26.108456 : After pop the 'model' key in _dict_val: {'brand': 'Ford', 'year': 1964}
+2025-07-11 06:55:26.108456 : After pop item(last key and value will be out of _dict_val): {'brand': 'Ford'}
+2025-07-11 06:55:26.110015 : car: {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+2025-07-11 06:55:26.110015 : After popitem of car dictionary: {'brand': 'Ford', 'model': 'Mustang'}
+2025-07-11 06:55:26.111030 : dict_val: {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+2025-07-11 06:55:26.111030 : Get a list of the key:value pairs: {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+2025-07-11 06:55:26.111030 : {'brand': 'Ford', 'model': 'Mustang', 'year': 2020}
+2025-07-11 06:55:26.111030 : Get a list of the key:value pairs after value change for year key : {'brand': 'Ford', 'model': 'Mustang', 'year': 2020}
+2025-07-11 06:55:26.111030 : {'brand': 'Ford', 'model': 'Mustang', 'year': 2020, 'color': 'red'}
+2025-07-11 06:55:26.111030 : Get a list of the key:value pairs after updating new key and value : {'brand': 'Ford', 'model': 'Mustang', 'year': 2020, 'color': 'red'}
+2025-07-11 06:55:26.112058 : new_item: {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+2025-07-11 06:55:26.112058 : Get a list of the values: dict_values(['Ford', 'Mustang', 1964])
+2025-07-11 06:55:26.112058 : before the value change for year key: dict_values(['Ford', 'Mustang', 1964])
+2025-07-11 06:55:26.112058 : After the value change for year key: dict_values(['Ford', 'Mustang', 2020])
+2025-07-11 06:55:26.114589 : Dictinary: datatypes_dict, {'brand': 'Ford', 'electric': False, 'year': 1964, 'colors': ['red', 'white', 'blue']}
+2025-07-11 06:55:26.114589 : Type of datatypes_dict, <class 'dict'>
+2025-07-11 06:55:26.115598 : len_dict, {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+2025-07-11 06:55:26.115598 : length of len_dict, 3
+2025-07-11 06:55:26.117610 : Nested dictionary - A dictionary can contain dictionaries, this is called nested dictionaries: {'child1': {'name': 'Emil', 'year': 2004}, 'child2': {'name': 'Tobias', 'year': 2007}, 'child3': {'name': 'Linus', 'year': 2011}}
+2025-07-11 06:55:26.117610 : Create three dictionaries, then create one dictionary that will contain the other three dictionaries
+2025-07-11 06:55:26.117610 : my_family dictionary: {'child1': {'name': 'Emil', 'year': 2004}, 'child2': {'name': 'Tobias', 'year': 2007}, 'child3': {'name': 'Linus', 'year': 2011}}
+2025-07-11 06:55:26.117610 : child1 dictionary: {'name': 'Emil', 'year': 2004}
+2025-07-11 06:55:26.117610 : child2 dictionary: {'name': 'Tobias', 'year': 2007}
+2025-07-11 06:55:26.117610 : child3 dictionary: {'name': 'Linus', 'year': 2011}
+2025-07-11 06:55:26.117610 : Get value of my_family["child1"]["name"] from nested dictionary Emil
+2025-07-11 06:55:26.117610 : Get value of ["child1"]["year"] from nested dictionary 2004
+2025-07-11 06:55:26.117610 : Get value of ["child2"]["name"] from nested dictionary Tobias
+2025-07-11 06:55:26.117610 : Get value of ["child2"]["year"] from nested dictionary Tobias
+2025-07-11 06:55:26.117610 : Get value of ["child3"]["name"] from nested dictionary Linus
+2025-07-11 06:55:26.117610 : Get value of ["child3"]["year"] from nested dictionary Linus
+2025-07-11 06:55:26.117610 : child1
+2025-07-11 06:55:26.117610 : Accessing element my_family["child1"]["name"] from nested dictionary, {'name': 'Emil', 'year': 2004}
+2025-07-11 06:55:26.117610 : child2
+2025-07-11 06:55:26.117610 : Accessing element my_family["child2"]["name"] from nested dictionary, {'name': 'Tobias', 'year': 2007}
+2025-07-11 06:55:26.117610 : child3
+2025-07-11 06:55:26.117610 : Accessing element my_family["child3"]["name"] from nested dictionary, {'name': 'Linus', 'year': 2011}
+2025-07-11 06:55:26.118608 : Iterate key: child1, value: {'name': 'Emil', 'year': 2004}
+2025-07-11 06:55:26.118608 : Iterate key: child2, value: {'name': 'Tobias', 'year': 2007}
+2025-07-11 06:55:26.118608 : Iterate key: child3, value: {'name': 'Linus', 'year': 2011}
+2025-07-11 06:55:26.119946 : dict1:
+2025-07-11 06:55:26.119946 : {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+2025-07-11 06:55:26.119946 : Using for loop to iterate the dict1_value
+2025-07-11 06:55:26.119946 : a
+2025-07-11 06:55:26.119946 : 1
+2025-07-11 06:55:26.119946 : b
+2025-07-11 06:55:26.119946 : 2
+2025-07-11 06:55:26.119946 : c
+2025-07-11 06:55:26.119946 : 3
+2025-07-11 06:55:26.119946 : d
+2025-07-11 06:55:26.119946 : 4
+2025-07-11 06:55:26.121426 : list_value:
+2025-07-11 06:55:26.122801 : [1, 4, 2, 3, 5, 6, 7, 9, 8, 100]
+2025-07-11 06:55:26.122801 : Using for loop to iterate the list_value
+2025-07-11 06:55:26.122801 : 0
+2025-07-11 06:55:26.122801 : 1
+2025-07-11 06:55:26.122801 : 2
+2025-07-11 06:55:26.122801 : 3
+2025-07-11 06:55:26.122801 : 4
+2025-07-11 06:55:26.122801 : 5
+2025-07-11 06:55:26.122801 : 6
+2025-07-11 06:55:26.122801 : 7
+2025-07-11 06:55:26.122801 : 8
+2025-07-11 06:55:26.122801 : 9
+2025-07-11 06:55:26.123810 : set1:
+2025-07-11 06:55:26.123810 : {'b', 'c', 'a'}
+2025-07-11 06:55:26.123810 : Using for loop to iterate the set1_value
+2025-07-11 06:55:26.123810 : b
+2025-07-11 06:55:26.123810 : c
+2025-07-11 06:55:26.123810 : a
+2025-07-11 06:55:26.126189 : string_value:
+2025-07-11 06:55:26.126189 : helloworld
+2025-07-11 06:55:26.126189 : Using for loop to iterate the string_value
+2025-07-11 06:55:26.126189 : h
+2025-07-11 06:55:26.126189 : e
+2025-07-11 06:55:26.126189 : l
+2025-07-11 06:55:26.126189 : l
+2025-07-11 06:55:26.126189 : o
+2025-07-11 06:55:26.126189 : w
+2025-07-11 06:55:26.126189 : o
+2025-07-11 06:55:26.126189 : r
+2025-07-11 06:55:26.126189 : l
+2025-07-11 06:55:26.126189 : d
+2025-07-11 06:55:26.127196 : tuple_value:
+2025-07-11 06:55:26.127196 : (1, 3, 2, 4, 'hello')
+2025-07-11 06:55:26.127196 : Using for loop to iterate the tuple_value
+2025-07-11 06:55:26.127196 : 1
+2025-07-11 06:55:26.127196 : 3
+2025-07-11 06:55:26.127196 : 2
+2025-07-11 06:55:26.127196 : 4
+2025-07-11 06:55:26.127196 : hello
+2025-07-11 06:55:26.129209 : while loop with break statement: i, 1
+2025-07-11 06:55:26.129209 : Candy
+2025-07-11 06:55:26.129209 : Candy
+2025-07-11 06:55:26.129209 : Candy
+2025-07-11 06:55:26.129209 : Bye
+2025-07-11 06:55:26.130210 : while loop with continue statement: i, 1
+2025-07-11 06:55:26.130210 : 1
+2025-07-11 06:55:26.130210 : 1
+2025-07-11 06:55:26.130210 : 1
+2025-07-11 06:55:26.130210 : 1
+2025-07-11 06:55:26.131574 : while loop with else condition: i, 1
+2025-07-11 06:55:26.131574 : 1
+2025-07-11 06:55:26.131574 : 2
+2025-07-11 06:55:26.131574 : 3
+2025-07-11 06:55:26.131574 : 4
+2025-07-11 06:55:26.131574 : 5
+2025-07-11 06:55:26.131574 : i is no longer less than 6
+2025-07-11 06:55:26.133079 : This is default argument function method with single parameter
+2025-07-11 06:55:26.133079 : Default argument with single argument or parameter
+2025-07-11 06:55:26.133079 : Hi Anamika
+2025-07-11 06:55:26.135965 : Keyword arguments: 15
+2025-07-11 06:55:26.137283 : Positional arguments: 15
+2025-07-11 06:55:26.139189 : Default argument with two argument or parameter
+2025-07-11 06:55:26.139189 : Adding two numbers: 10, 1, results is 11
+2025-07-11 06:55:26.141203 : This is default argument function method with two parameter
+2025-07-11 06:55:26.141203 : Hi Anamika Prakash
+2025-07-11 06:55:26.142200 : combination of positional and keyword arguments: 26
+2025-07-11 06:55:26.144446 : Total value:
+2025-07-11 06:55:26.144446 : 1
+2025-07-11 06:55:26.144446 : Numbers:
+2025-07-11 06:55:26.144446 : ([1, 2, 3, 4, 5],)
+2025-07-11 06:55:26.144446 : Iterate the number: 
+2025-07-11 06:55:26.144446 : [1, 2, 3, 4, 5]
+2025-07-11 06:55:26.144446 : total numbers:
+2025-07-11 06:55:26.144446 : [1, 2, 3, 4, 5]
+2025-07-11 06:55:26.145410 : variable arguments: {'c': 7, 'd': 8, 'e': 'hello'}
+2025-07-11 06:55:26.146878 : ('hello', None, 10, 4.5, (1, 2, 3), [1, 2, 5], {'a': 1, 'b': 2}, {'B', 'A'})
+2025-07-11 06:55:26.146878 : no of variable argument with different data types
+2025-07-11 06:55:26.146878 : <class 'str'>,<class 'NoneType'>,<class 'int'>,<class 'float'>,<class 'tuple'>,<class 'list'>,<class 'dict'>,<class 'set'>
+2025-07-11 06:55:26.146878 : type: hello,None,10,4.5,(1, 2, 3),[1, 2, 5],{'a': 1, 'b': 2},{'B', 'A'}
+2025-07-11 06:55:26.148345 : dict: {}
+2025-07-11 06:55:26.148345 : Multiplication of number 1 to 5
+2025-07-11 06:55:26.148345 : {1: 1}
+2025-07-11 06:55:26.148345 : Multiplication of number 1 to 5
+2025-07-11 06:55:26.148345 : {1: 1, 2: 4}
+2025-07-11 06:55:26.150341 : dict1:  {'Mon': 23, 'Tue': 11, 'Sun': 6}
+2025-07-11 06:55:26.150341 : dict2: {'Mon': 10, 'Tue': 12, 'Wed': 4}
+2025-07-11 06:55:26.150341 : dict3: {'Mon': 33, 'Tue': 23, 'Wed': 10}
+2025-07-11 06:55:26.151597 : dict1: {'Mon': 23, 'Tue': 11, 'Sun': 6}
+2025-07-11 06:55:26.151597 : dict2: {'Wed': 10, 'Mon': 12, 'Sun': 4}
+2025-07-11 06:55:26.151597 : Adding values in dict2: {'Wed': 10, 'Mon': 35, 'Sun': 10}
+2025-07-11 06:55:26.151597 : {'Mon': 35, 'Tue': 11, 'Sun': 10, 'Wed': 10}
+2025-07-11 06:55:26.152980 : dict1
+2025-07-11 06:55:26.152980 : {1: 'a', 2: 'b', 3: 'c', 4: 'd'}
+2025-07-11 06:55:26.152980 : Append keys and values associated using dict method: 
+2025-07-11 06:55:26.152980 : [1, 2, 3, 4, 'a', 'b', 'c', 'd']
+2025-07-11 06:55:26.155714 : Given dictionary dict1: {1: 'a', 2: 'b'}, dict2: {2: 'c', 4: 'd'} 
+2025-07-11 06:55:26.155714 : copy of dictionary dict2: {2: 'c', 4: 'd'}
+2025-07-11 06:55:26.155714 : copy and update of dictionary dict2 and dict1: {2: 'b', 4: 'd', 1: 'a'}
+2025-07-11 06:55:26.157742 : dict: {'c1': 'Red', 'c2': 'Green', 'c3': None}
+2025-07-11 06:55:26.157742 : New Dictionary after dropping empty items
+2025-07-11 06:55:26.157742 : {'c1': 'Red', 'c2': 'Green'}
+2025-07-11 06:55:26.159297 : dict: {'1': 75, '2': 80, '3': 65, '4': 90}
+2025-07-11 06:55:26.159297 : Marks greater than 70:
+2025-07-11 06:55:26.159297 : Marks greater than 70:
+2025-07-11 06:55:26.159297 : {'1': 75, '2': 80, '4': 90}
+2025-07-11 06:55:26.160297 : thisdict
+2025-07-11 06:55:26.160297 : {'key1': 0, 'key2': 0, 'key3': 0}
+2025-07-11 06:55:26.160297 : copy of thisdict
+2025-07-11 06:55:26.160297 : {'key1': 0, 'key2': 0, 'key3': 0}
+2025-07-11 06:55:26.160297 : After update dictionary
+2025-07-11 06:55:26.160297 : white
+2025-07-11 06:55:26.160297 : {'key1': 0, 'key2': 0, 'key3': 0, 'color': 'white'}
+2025-07-11 06:55:26.162181 : Hello world
+2025-07-11 06:55:26.162181 :  | 
+2025-07-11 06:55:26.162181 : I am
+2025-07-11 06:55:26.162181 : Tim
+2025-07-11 06:55:26.162181 : My name is
+2025-07-11 06:55:26.162181 : ,
+2025-07-11 06:55:26.162181 : {'Tim'}
+2025-07-11 06:55:26.162181 : ,
+2025-07-11 06:55:26.162181 : My age is
+2025-07-11 06:55:26.162181 : ,
+2025-07-11 06:55:26.162181 : {23}
+2025-07-11 06:55:26.163231 : Create empty dictionary
+2025-07-11 06:55:26.163231 : {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+2025-07-11 06:55:26.163231 : After update keys and values in dict1
+2025-07-11 06:55:26.163231 : {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+2025-07-11 06:55:26.163231 : Type
+2025-07-11 06:55:26.163231 : <class 'dict'>
+2025-07-11 06:55:26.163231 : Keys
+2025-07-11 06:55:26.163231 : dict_keys(['a', 'b', 'c', 'd'])
+2025-07-11 06:55:26.163231 : values
+2025-07-11 06:55:26.163231 : dict_values([1, 2, 3, 4])
+2025-07-11 06:55:26.163231 : ['a', 'b', 'c', 'd']
+2025-07-11 06:55:26.163231 : [1, 2, 3, 4]
+2025-07-11 06:55:26.163231 : items
+2025-07-11 06:55:26.163231 : dict_items([('a', 1), ('b', 2), ('c', 3), ('d', 4)])
+2025-07-11 06:55:26.163231 : Changing the value 7 to 'c' key
+2025-07-11 06:55:26.163231 : {'a': 1, 'b': 2, 'c': 7, 'd': 4}
+2025-07-11 06:55:26.163231 : after update new key and value
+2025-07-11 06:55:26.163231 : {'a': 1, 'b': 2, 'c': 7, 'd': 4}
+2025-07-11 06:55:26.163231 : Get the value by using key 'a'
+2025-07-11 06:55:26.163231 : 1
+2025-07-11 06:55:26.163231 : Get the value by key using get() method
+2025-07-11 06:55:26.163231 : 1
+2025-07-11 06:55:26.163231 : len of dict1
+2025-07-11 06:55:26.163231 : 4
+2025-07-11 06:55:26.163231 : After update keys and values in dict1
+2025-07-11 06:55:26.163231 : {'a': 1, 'b': 2, 'c': 7, 'd': 4, 'colors': ['red', 'white', 'blue'], 'brand': 'Maruti', 'Year': 2025, 'Model': 'Swift'}
+2025-07-11 06:55:26.163231 : Yes, 'Model' is one of the keys in the dict1 dictionary
+2025-07-11 06:55:26.163231 : after remove the item using pop() method
+2025-07-11 06:55:26.163231 : Swift
+2025-07-11 06:55:26.163231 : After pop the item 'Model' in dict1
+2025-07-11 06:55:26.163231 : {'a': 1, 'b': 2, 'c': 7, 'd': 4, 'colors': ['red', 'white', 'blue'], 'brand': 'Maruti', 'Year': 2025}
+2025-07-11 06:55:26.163231 : After pop the item 'Model' in dict1
+2025-07-11 06:55:26.163231 : ('Year', 2025)
+2025-07-11 06:55:26.163231 : After popitem() in dict1
+2025-07-11 06:55:26.163231 : {'a': 1, 'b': 2, 'c': 7, 'd': 4, 'colors': ['red', 'white', 'blue'], 'brand': 'Maruti'}
+2025-07-11 06:55:26.163231 : After remove the item 'brand' using del keyword in dict1:
+2025-07-11 06:55:26.163231 : {'a': 1, 'b': 2, 'c': 7, 'd': 4, 'colors': ['red', 'white', 'blue']}
+2025-07-11 06:55:26.163231 : a
+2025-07-11 06:55:26.163231 : b
+2025-07-11 06:55:26.163231 : c
+2025-07-11 06:55:26.163231 : d
+2025-07-11 06:55:26.163231 : colors
+2025-07-11 06:55:26.163231 : 1
+2025-07-11 06:55:26.163231 : 2
+2025-07-11 06:55:26.163231 : 7
+2025-07-11 06:55:26.163231 : 4
+2025-07-11 06:55:26.163231 : ['red', 'white', 'blue']
+2025-07-11 06:55:26.163231 : 1
+2025-07-11 06:55:26.163231 : 2
+2025-07-11 06:55:26.163231 : 7
+2025-07-11 06:55:26.163231 : 4
+2025-07-11 06:55:26.163231 : ['red', 'white', 'blue']
+2025-07-11 06:55:26.163231 : a
+2025-07-11 06:55:26.163231 : b
+2025-07-11 06:55:26.163231 : c
+2025-07-11 06:55:26.163231 : d
+2025-07-11 06:55:26.163231 : colors
+2025-07-11 06:55:26.163231 : a
+2025-07-11 06:55:26.163231 : 1
+2025-07-11 06:55:26.163231 : b
+2025-07-11 06:55:26.163231 : 2
+2025-07-11 06:55:26.163231 : c
+2025-07-11 06:55:26.163231 : 7
+2025-07-11 06:55:26.163231 : d
+2025-07-11 06:55:26.163231 : 4
+2025-07-11 06:55:26.163231 : colors
+2025-07-11 06:55:26.163231 : ['red', 'white', 'blue']
+2025-07-11 06:55:26.163231 : a
+2025-07-11 06:55:26.163231 : 1
+2025-07-11 06:55:26.163231 : b
+2025-07-11 06:55:26.163231 : 2
+2025-07-11 06:55:26.163231 : c
+2025-07-11 06:55:26.163231 : 7
+2025-07-11 06:55:26.163231 : colors
+2025-07-11 06:55:26.163231 : ['red', 'white', 'blue']
+2025-07-11 06:55:26.163231 : d
+2025-07-11 06:55:26.163231 : 4
+2025-07-11 06:55:26.163231 : clear the dictionary
+2025-07-11 06:55:26.163231 : None
+2025-07-11 06:55:26.163231 : dict1
+2025-07-11 06:55:26.163231 : {}
+2025-07-11 06:55:26.165751 : 0
+2025-07-11 06:55:26.165751 : 1
+2025-07-11 06:55:26.165751 : 1
+2025-07-11 06:55:26.165751 : 2
+2025-07-11 06:55:26.165751 : 3
+2025-07-11 06:55:26.165751 : 5
+2025-07-11 06:55:26.165751 : 8
+2025-07-11 06:55:26.166783 : dict: {7: 'sami', 8: 'jana', 9: 'rami', 10: 'rana', 11: 'reem', 12: 'salma'}
+2025-07-11 06:55:26.166783 : Sorted value
+2025-07-11 06:55:26.166783 : {8: 'jana', 10: 'rana', 12: 'salma'}
+2025-07-11 06:55:26.166783 : filtering keys are even
+2025-07-11 06:55:26.166783 : {8: 'jana', 10: 'rana', 12: 'salma'}
+2025-07-11 06:55:26.167854 : 153
+2025-07-11 06:55:26.167854 : is a armstrong number
+2025-07-11 06:55:26.169260 : dict1:
+2025-07-11 06:55:26.169260 : {1: 'a', 2: 'b', 3: 'c', 4: 'd'}
+2025-07-11 06:55:26.169260 : list
+2025-07-11 06:55:26.169260 : [1, 2, 3]
+2025-07-11 06:55:26.169260 : Common keys in list and dictonary
+2025-07-11 06:55:26.169260 : [1, 2, 3]
+2025-07-11 06:55:26.170572 : find_common_keys_of_dict1 & dict2 dictionary using list comphrehension method:
+2025-07-11 06:55:26.170572 : {'cd': 13, 'de': 41}
+2025-07-11 06:55:26.172981 : dict1: {2: 'b', 3: 'c'}
+2025-07-11 06:55:26.172981 : dict2: {2: 'c', 4: 'd', 3: 'c'}
+2025-07-11 06:55:26.172981 : find_common_keys_of_dict1 & dict2 dictionary: {2, 3}
+2025-07-11 06:55:26.175148 : dict1: {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+2025-07-11 06:55:26.175148 : dict2: {'t1': 1, 'b': 2, 'e': 5, 'c': 3}
+2025-07-11 06:55:26.175148 : c, 3 is present in both dict1 and dict2
+2025-07-11 06:55:26.175148 : b, 2 is present in both dict1 and dict2
+2025-07-11 06:55:26.175148 : after clear dict1: {}, dict2: {}
+2025-07-11 06:55:26.177283 : dict1: {'1': 'Mon', '2': 'Tue', '3': 'Wed'}
+2025-07-11 06:55:26.177283 : dict2: {'3': 'Wed', '4': 'Thur', '5': 'Fri'}
+2025-07-11 06:55:26.177283 : res1:
+2025-07-11 06:55:26.177283 : {'2', '1'}
+2025-07-11 06:55:26.177283 : res2:
+2025-07-11 06:55:26.177283 : {'5', '4'}
+2025-07-11 06:55:26.177283 : After merge two dictinaries dict1 using ChainMap func, dict2
+2025-07-11 06:55:26.177283 : ChainMap({'1': 'Mon', '2': 'Tue', '3': 'Wed'}, {'3': 'Wed', '4': 'Thur', '5': 'Fri'})
+2025-07-11 06:55:26.185779 : Even Number: 0
+2025-07-11 06:55:26.185779 : Odd Number: 1
+2025-07-11 06:55:26.185779 : Even Number: 2
+2025-07-11 06:55:26.185779 : Odd Number: 3
+2025-07-11 06:55:26.185779 : Even Number: 4
+2025-07-11 06:55:26.185779 : Odd Number: 5
+2025-07-11 06:55:26.185779 : Even Number: 6
+2025-07-11 06:55:26.185779 : Odd Number: 7
+2025-07-11 06:55:26.185779 : Even Number: 8
+2025-07-11 06:55:26.185779 : Odd Number: 9
+2025-07-11 06:55:26.185779 : Even Number: 10
+2025-07-11 06:55:26.185779 : Odd Number: 11
+2025-07-11 06:55:26.185779 : Even Number: 12
+2025-07-11 06:55:26.185779 : Odd Number: 13
+2025-07-11 06:55:26.185779 : Even Number: 14
+2025-07-11 06:55:26.185779 : Odd Number: 15
+2025-07-11 06:55:26.185779 : Even Number: 16
+2025-07-11 06:55:26.185779 : Odd Number: 17
+2025-07-11 06:55:26.185779 : Even Number: 18
+2025-07-11 06:55:26.185779 : Odd Number: 19
+2025-07-11 06:55:26.185779 : Even Number: 20
+2025-07-11 06:55:26.185779 : Odd Number: 21
+2025-07-11 06:55:26.185779 : Even Number: 22
+2025-07-11 06:55:26.185779 : Odd Number: 23
+2025-07-11 06:55:26.185779 : Even Number: 24
+2025-07-11 06:55:26.185779 : Odd Number: 25
+2025-07-11 06:55:26.185779 : Even Number: 26
+2025-07-11 06:55:26.185779 : Odd Number: 27
+2025-07-11 06:55:26.185779 : Even Number: 28
+2025-07-11 06:55:26.185779 : Odd Number: 29
+2025-07-11 06:55:26.185779 : even numbers using list comphrension method: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28]
+2025-07-11 06:55:26.185779 : odd numbers using list comphrension method: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29]
+2025-07-11 06:55:26.185779 : 0 is Even number
+2025-07-11 06:55:26.185779 : 1 is odd number
+2025-07-11 06:55:26.185779 : 2 is Even number
+2025-07-11 06:55:26.185779 : 3 is odd number
+2025-07-11 06:55:26.185779 : 4 is Even number
+2025-07-11 06:55:26.185779 : 5 is odd number
+2025-07-11 06:55:26.185779 : 6 is Even number
+2025-07-11 06:55:26.185779 : 7 is odd number
+2025-07-11 06:55:26.185779 : 8 is Even number
+2025-07-11 06:55:26.185779 : 9 is odd number
+2025-07-11 06:55:26.185779 : 10 is Even number
+2025-07-11 06:55:26.185779 : 11 is odd number
+2025-07-11 06:55:26.185779 : 12 is Even number
+2025-07-11 06:55:26.185779 : 13 is odd number
+2025-07-11 06:55:26.185779 : 14 is Even number
+2025-07-11 06:55:26.185779 : 15 is odd number
+2025-07-11 06:55:26.185779 : 16 is Even number
+2025-07-11 06:55:26.185779 : 17 is odd number
+2025-07-11 06:55:26.185779 : 18 is Even number
+2025-07-11 06:55:26.185779 : 19 is odd number
+2025-07-11 06:55:26.185779 : list_comhrension_method using tuple Method: [(0, 'Even'), (1, 'odd'), (2, 'Even'), (3, 'odd'), (4, 'Even'), (5, 'odd'), (6, 'Even'), (7, 'odd'), (8, 'Even'), (9, 'odd'), (10, 'Even'), (11, 'odd'), (12, 'Even'), (13, 'odd'), (14, 'Even'), (15, 'odd'), (16, 'Even'), (17, 'odd'), (18, 'Even'), (19, 'odd')]
+2025-07-11 06:55:26.185779 : list_comhrension_method using dictionary Method: {0: 'even', 1: 'odd', 2: 'even', 3: 'odd', 4: 'even', 5: 'odd', 6: 'even', 7: 'odd', 8: 'even', 9: 'odd', 10: 'even', 11: 'odd', 12: 'even', 13: 'odd', 14: 'even', 15: 'odd', 16: 'even', 17: 'odd', 18: 'even', 19: 'odd'}
+2025-07-11 06:55:26.185779 : list_comhrension_method using string Method: [(0, 'even'), (1, 'odd'), (2, 'even'), (3, 'odd'), (4, 'even'), (5, 'odd'), (6, 'even'), (7, 'odd'), (8, 'even'), (9, 'odd'), (10, 'even'), (11, 'odd'), (12, 'even'), (13, 'odd'), (14, 'even'), (15, 'odd'), (16, 'even'), (17, 'odd'), (18, 'even'), (19, 'odd')]
+2025-07-11 06:55:26.185779 : list_comhrension_method using fstring Method:
+2025-07-11 06:55:26.185779 : 0 is Even1 is odd2 is Even3 is odd4 is Even5 is odd6 is Even7 is odd8 is Even9 is odd10 is Even11 is odd12 is Even13 is odd14 is Even15 is odd16 is Even17 is odd18 is Even19 is odd
+2025-07-11 06:55:26.185779 : even numbers using list comphrension method: [2, 4, 6, 8]
+2025-07-11 06:55:26.185779 : odd numbers using list comphrension method: [1, 3, 5, 7]
+2025-07-11 06:55:26.185779 : even number using for loop: [2, 4, 6, 8]
+2025-07-11 06:55:26.185779 : odd number using for loop: [1, 3, 5, 7]
+2025-07-11 06:55:26.185779 : even number using while loop: [2, 4, 6, 8]
+2025-07-11 06:55:26.185779 : odd number using while loop: [1, 3, 5, 7]
+2025-07-11 06:55:26.185779 : even number using by count method: 4
+2025-07-11 06:55:26.185779 : odd number using by count method: 5
+2025-07-11 06:55:26.185779 : Count the Even numbers using counter method:
+2025-07-11 06:55:26.185779 : 4
+2025-07-11 06:55:26.185779 : Count the Odd numbers using counter method:
+2025-07-11 06:55:26.185779 : 5
+2025-07-11 06:55:26.185779 : Count the Even numbers using filter and lambda method:
+2025-07-11 06:55:26.185779 : 4
+2025-07-11 06:55:26.185779 : Count the Odd numbers using filter and lambda method:
+2025-07-11 06:55:26.185779 : 5
+2025-07-11 06:55:26.188085 : The factorial of
+2025-07-11 06:55:26.188085 : 5
+2025-07-11 06:55:26.188085 : is
+2025-07-11 06:55:26.188085 : 1
+2025-07-11 06:55:26.188085 : The factorial of
+2025-07-11 06:55:26.188085 : 5
+2025-07-11 06:55:26.188085 : is
+2025-07-11 06:55:26.188085 : 2
+2025-07-11 06:55:26.188085 : The factorial of
+2025-07-11 06:55:26.188085 : 5
+2025-07-11 06:55:26.188085 : is
+2025-07-11 06:55:26.188085 : 6
+2025-07-11 06:55:26.188085 : The factorial of
+2025-07-11 06:55:26.188085 : 5
+2025-07-11 06:55:26.188085 : is
+2025-07-11 06:55:26.188085 : 24
+2025-07-11 06:55:26.188085 : The factorial of
+2025-07-11 06:55:26.188085 : 5
+2025-07-11 06:55:26.188085 : is
+2025-07-11 06:55:26.188085 : 120
+2025-07-11 06:55:26.189560 : 1
+2025-07-11 06:55:26.189560 : 1
+2025-07-11 06:55:26.189560 : 2
+2025-07-11 06:55:26.189560 : 3
+2025-07-11 06:55:26.189560 : 5
+2025-07-11 06:55:26.189560 : 8
+2025-07-11 06:55:26.189560 : 13
+2025-07-11 06:55:26.189560 : 21
+2025-07-11 06:55:26.189560 : 34
+2025-07-11 06:55:26.190693 : The values at position 100 is
+2025-07-11 06:55:26.190693 : One
+2025-07-11 06:55:26.190693 : The values at position 200 is
+2025-07-11 06:55:26.190693 : Two
+2025-07-11 06:55:26.190693 : The values at position 300 is
+2025-07-11 06:55:26.190693 : Three
+2025-07-11 06:55:26.192701 : Given dictionary
+2025-07-11 06:55:26.192701 : {'Sun': 5, 'Mon': 3, 'Tue': 5, 'Wed': 3}
+2025-07-11 06:55:26.192701 : After removing keys with duplicate values: {5: 'Tue', 3: 'Wed'}
+2025-07-11 06:55:26.194711 : Given dictionary: {12: 10, 22: 12, 18: 4, 8: 20, 14: 9, 9: 13}
+2025-07-11 06:55:26.194711 : First 4 largest keys using for loop method
+2025-07-11 06:55:26.194711 : [22, 18, 14, 12]
+2025-07-11 06:55:26.194711 : Lambda method: The 4 largest keys are: 
+2025-07-11 06:55:26.194711 : [22, 18, 14, 12]
+2025-07-11 06:55:26.196704 : Given list:
+2025-07-11 06:55:26.196704 : [1, 2, 4, 3, 19, 50]
+2025-07-11 06:55:26.196704 : 50
+2025-07-11 06:55:26.197703 : Given list: ['a', 'b', 'c', 'd', 'a', 'b']
+2025-07-11 06:55:26.197703 : Remove duplicates using set method, {'b', 'd', 'c', 'a'}
+2025-07-11 06:55:26.197703 : Given list: [10, 2, 1, 3, 2, 5, 6, 7, 9, 1, 3]
+2025-07-11 06:55:26.197703 : Remove duplicates using append method, [1, 2, 3, 5, 6, 7, 9, 10]
+2025-07-11 06:55:26.197703 : Given list: [10, 2, 1, 3, 2, 5, 6, 7, 9, 1, 3]
+2025-07-11 06:55:26.198702 : Remove duplicates using dict.fromkeys().keys() method, [1, 2, 3, 5, 6, 7, 9, 10]
+2025-07-11 06:55:26.198702 : Given list: [10, 2, 1, 3, 2, 5, 6, 7, 9, 1, 3]
+2025-07-11 06:55:26.198702 : Remove duplicates using index method, [1, 2, 3, 5, 6, 7, 9, 10]
+2025-07-11 06:55:26.198702 : Given list: [10, 2, 1, 3, 2, 5, 6, 7, 9, 1, 3]
+2025-07-11 06:55:26.198702 : Remove duplicates using hashable method: {10}
+2025-07-11 06:55:26.198702 : Remove duplicates using hashable method: {10, 2}
+2025-07-11 06:55:26.198702 : Remove duplicates using hashable method: {1, 10, 2}
+2025-07-11 06:55:26.198702 : Remove duplicates using hashable method: {3, 1, 10, 2}
+2025-07-11 06:55:26.198702 : True
+2025-07-11 06:55:26.198702 : Given list: [10, 2, 1, 3, 2, 5, 6, 7, 9, 1, 3]
+2025-07-11 06:55:26.198702 : Remove duplicates using window method: {10}
+2025-07-11 06:55:26.198702 : Remove duplicates using window method: {10, 2}
+2025-07-11 06:55:26.198702 : Remove duplicates using window method: {1, 10, 2}
+2025-07-11 06:55:26.198702 : Remove duplicates using window method: {3, 1, 10, 2}
+2025-07-11 06:55:26.200703 : Given 5 is a prime number
+2025-07-11 06:55:26.202704 : Given list:
+2025-07-11 06:55:26.202704 : [1, 2, 4, 3, 19, 50]
+2025-07-11 06:55:26.202704 : 1
+2025-07-11 06:55:26.205009 : AUS
+2025-07-11 06:55:26.205009 : Not Found
+2025-07-11 06:55:26.207335 : ('2018', 'is Not a leap year')
+2025-07-11 06:55:26.207335 : test_value: 100
+2025-07-11 06:55:26.207335 : This code is executed!
+2025-07-11 06:55:26.207335 : Program continues at this point.
+2025-07-11 06:55:26.207335 : test_value: 1001
+2025-07-11 06:55:26.207335 : This code is executed!
+2025-07-11 06:55:26.207335 : This code is NOT executed!
+2025-07-11 06:55:26.207335 : Program continues at this point.
+2025-07-11 06:55:26.207335 : You have a fish
+2025-07-11 06:55:26.207335 : You have a dog.
+2025-07-11 06:55:26.207335 : You have a cat.
+2025-07-11 06:55:26.207335 : b is greater than a
+2025-07-11 06:55:26.207335 : a and b are equal
+2025-07-11 06:55:26.207335 : a is greater than b
+2025-07-11 06:55:26.207335 : b is not greater than a
+2025-07-11 06:55:26.207335 : B
+2025-07-11 06:55:26.207335 : =
+2025-07-11 06:55:26.207335 : Both conditions are True
+2025-07-11 06:55:26.207335 : At least one of the conditions is True
+2025-07-11 06:55:26.207335 : a is NOT greater than b
+2025-07-11 06:55:26.207335 : Above ten,
+2025-07-11 06:55:26.207335 : and also above 20!
+2025-07-11 06:55:26.208348 : Given dictionary: {'Foo': 'Hello', 'Bar': 'World'}
+2025-07-11 06:55:26.208348 : Given dictionary with lowercase: {'Foo': 'Hello', 'Bar': 'World'}
+2025-07-11 06:55:26.210372 : dict: {'A': 1, 'B': 3, 'C': 3, 'D': 4, 'E': 1, 'F': 3}
+2025-07-11 06:55:26.210372 : list of keys in list by using value method, val: [key1, key2]
+2025-07-11 06:55:26.210372 : {1: ['A', 'E'], 3: ['B', 'C', 'F'], 4: ['D']}
+2025-07-11 06:55:26.211372 : Given dictionary dict1: {1: 'a', 2: 'b'}, dict2: {2: 'c', 4: 'd'} 
+2025-07-11 06:55:26.211372 : Merge dictionary of dict1 & dict2: {1: 'a', 2: 'c', 4: 'd'} 
+2025-07-11 06:55:26.211372 : Merge dictionary keys of dict1 & dict2: (1, 2, 2, 4)
+2025-07-11 06:55:26.212370 : Given dictionary: {1: 'a', 2: 'b', 3: 'c', 4: 'd'}
+2025-07-11 06:55:26.212370 : split single dictionary to multiple dictionary using list comphrension method: [{1: 'a', 2: 'b'}, {3: 'c', 4: 'd'}]
+2025-07-11 06:55:26.214952 : dict: {'data1': 100, 'data2': -54, 'data3': 247}
+2025-07-11 06:55:26.214952 : sum of all number 1 to 5
+2025-07-11 06:55:26.214952 : 100
+2025-07-11 06:55:26.214952 : sum of all number 1 to 5
+2025-07-11 06:55:26.214952 : 46
+2025-07-11 06:55:26.214952 : sum of all number 1 to 5
+2025-07-11 06:55:26.214952 : 293
+2025-07-11 06:55:26.216122 : Given dictionary dict1: {'a': 100, 'b': 200, 'c': 300}, dict2: {'a': 300, 'b': 200, 'd': 400} 
+2025-07-11 06:55:26.216122 : Sum of values of key1 & key2 from dic1 & dict2
+2025-07-11 06:55:26.216122 : {'a': 400, 'b': 400, 'd': 700}
+2025-07-11 06:55:26.217134 : Given dictionary
+2025-07-11 06:55:26.217134 : {1: 'One', 2: 'Two', 3: 'Three'}
+2025-07-11 06:55:26.217134 : Swapped dictionary
+2025-07-11 06:55:26.217134 : {'One': 1, 'Two': 2, 'Three': 3}
